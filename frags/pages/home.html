@@ -1,0 +1,161 @@
+<div class="content" ng-show="tab.isSet('home')">
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{locale.getLocalizedString('home', 'presentation')}}</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="blog-img-ct">
+                        <p class="presentation">
+                            <img class="img-responsive profile-img" src="img/profile.jpg" alt="profile picture" />
+                            {{locale.getLocalizedString('home', 'presentationText')}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{locale.getLocalizedString('home', 'toVisitNext')}}</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-sm-margin">
+                        <!--li>
+                            {{locale.getLocalizedString('home', 'nothingPlanned')}}
+                        </li-->
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'miamiDate')}}</b>
+                            {{locale.getLocalizedString('home', 'miami')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'miamiDate')}}</b>
+                            {{locale.getLocalizedString('home', 'bahamas')}}
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{locale.getLocalizedString('home', 'done')}}</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-sm-margin">
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'cancunDate')}}</b>
+                            {{locale.getLocalizedString('home', 'cancun')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'corsicaDate')}}</b>
+                            {{locale.getLocalizedString('home', 'london')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'corsicaDate')}}</b>
+                            {{locale.getLocalizedString('home', 'prague')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'corsicaDate')}}</b>
+                            {{locale.getLocalizedString('home', 'corsica')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'yellowstoneDate')}}</b>
+                            {{locale.getLocalizedString('home', 'yellowstone')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'indiaDate')}}</b>
+                            {{locale.getLocalizedString('home', 'india')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'montrealDate')}}</b>
+                            {{locale.getLocalizedString('home', 'montreal')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'ncDate')}}</b>
+                            {{locale.getLocalizedString('home', 'nc')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'nationalParksDate')}}</b>
+                            {{locale.getLocalizedString('home', 'nationalParks')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'nolaDate')}}</b>
+                            {{locale.getLocalizedString('home', 'nola')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'lasVegasDate')}}</b>
+                            {{locale.getLocalizedString('home', 'lasVegas')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'sanDiegoDate')}}</b>
+                            {{locale.getLocalizedString('home', 'sanDiego')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'mauiDate')}}</b>
+                            {{locale.getLocalizedString('home', 'maui')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'seattleDate')}}</b>
+                            {{locale.getLocalizedString('home', 'seattle')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'chicagoDate')}}</b>
+                            {{locale.getLocalizedString('home', 'chicago')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'oregonDate')}}</b>
+                            {{locale.getLocalizedString('home', 'oregon')}}
+                        </li>
+                        <li>
+                            <b>{{locale.getLocalizedString('home', 'nycDate')}}</b>
+                            {{locale.getLocalizedString('home', 'nyc')}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-sm-6">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{locale.getLocalizedString('home', 'whereAmI')}}</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="img-responsive" id="home-map-canvas"> </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{locale.getLocalizedString('home', 'latestArticles')}}</h3>
+                </div>
+                <div class="panel-body">
+                    <p>{{locale.getLocalizedString('home', 'latestArticlesText')}}
+                        <a href="#" ng-click="tab.setTab('blog')">
+                            {{locale.getLocalizedString('home', 'latestArticlesLink')}}
+                        </a>
+                    </p><br/>
+                    <ul class="list-sm-margin">
+                        <li>
+                            {{locale.getLocalizedString('blog', 'parallel')}}
+                        </li>
+                        <li>
+                            {{locale.getLocalizedString('blog', 'calendar')}}
+                        </li>
+                        <li>
+                            {{locale.getLocalizedString('blog', 'gridLayout')}}
+                        </li>
+                        <li>
+                            {{locale.getLocalizedString('blog', 'stickyMenu')}}
+                        </li>
+                        <li>
+                            {{locale.getLocalizedString('blog', 'tracker')}}
+                        </li>
+                        <li>
+                            {{locale.getLocalizedString('blog', 'gr20')}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/homeMap.js"></script>
+</div>

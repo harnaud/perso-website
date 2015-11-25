@@ -1,0 +1,311 @@
+<div class="row content" ng-show="tab.isSet('blog')" ng-controller="ArticleController as articleCtrl">
+    <div class="col-md-9 col-sm-12" id="blog-articles">
+
+        <div class="panel panel-default" ng-show="articleCtrl.isComputerArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-phone my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'parallel')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'parallelDate')}}</div>
+            </div>
+            <div class="panel-body">
+                <blockquote>
+                    <p>{{locale.getLocalizedString('blog', 'parallelQuote')}}</p>
+                </blockquote>
+                {{locale.getLocalizedString('blog', 'parallelText')}}
+                <a target="_blank" href="http://jsbin.com/hotoka/edit?html,js,output">
+                    {{locale.getLocalizedString('blog', 'codeLinkText')}}</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isComputerArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-phone my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'calendar')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'calendarDate')}}</div>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('blog', 'calendarIns1')}}
+                <ul>
+                    <li>{{locale.getLocalizedString('blog', 'calendarRule1')}}</li>
+                    <li>{{locale.getLocalizedString('blog', 'calendarRule2')}}</li>
+                </ul>
+                {{locale.getLocalizedString('blog', 'calendarIns2')}}<br/><br/>
+                <samp class="preformated">{{locale.getLocalizedString('blog', 'calendarCode')}}</samp><br/><br/>
+                {{locale.getLocalizedString('blog', 'calendarTest')}}<br/><br/>
+                <div class="text-center">
+                    <a target="_blank" href="http://output.jsbin.com/qajitu">
+                        <img class="img-responsive rounded-corner blog-img" src="img/blog/calendar.png" alt="calendar"/>
+                        <p>{{locale.getLocalizedString('blog', 'imgCodeLinkText')}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isComputerArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-phone my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'gridLayout')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'gridLayoutDate')}}</div>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('blog', 'gridLayoutText')}}
+                <div class="text-center">
+                    <a href="http://output.jsbin.com/fipuki">
+                        <img class="img-responsive rounded-corner blog-img" src="img/blog/grid.png" alt="grid layout"/>
+                        <p>{{locale.getLocalizedString('blog', 'imgCodeLinkText')}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isComputerArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-phone my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'stickyMenu')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'stickyMenuDate')}}</div>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('blog', 'stickyMenuText')}}<br/><br/>
+                <div class="text-center">
+                    <a target="_blank" href="http://output.jsbin.com/jucosi" >
+                        <img class="img-responsive blog-img" src="img/blog/menu.png" alt="menu"/>
+                        <p>{{locale.getLocalizedString('blog', 'imgLinkText')}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isComputerArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-phone my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'tracker')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'trackerDate')}}</div>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('blog', 'trackerText')}}
+                <a href="http://output.jsbin.com/yapefo">
+                    {{locale.getLocalizedString('blog', 'codeLinkText')}}</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isTravelArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-plane my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'gr20')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'gr20Date')}}</div>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('blog', 'gr20Text')}}<br/><br/>
+                <div class="text-center">
+                    <a target="_blank" href="http://www.le-gr20.com/" >
+                        <img class="img-responsive rounded-corner blog-img" src="img/blog/gr20.png" alt="gr 20"/>
+                        <p>{{locale.getLocalizedString('blog', 'imgLinkText')}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isGameArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-knight my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'connectFour')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'connectFourDate')}}</div>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('blog', 'connectFourText')}}
+                <div class="text-center">
+                    <a target="_blank" href="http://output.jsbin.com/defupa">
+                        <img class="img-responsive rounded-corner blog-img" src="img/blog/connectfour.png" alt="connect four"/>
+                        <p>{{locale.getLocalizedString('blog', 'imgCodeLinkText')}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isTravelArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-plane my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'usaRoadTrip')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'usaRoadTripDate')}}</div>
+            </div>
+            <div class="panel-body">
+                <blockquote>
+                    <p>{{locale.getLocalizedString('blog', 'usaRoadTripText')}}</p>
+                </blockquote>
+                <div class="text-center">
+                    <a target="_blank" href="http://shareably.net/perfect-road-trip-map/" >
+                        <img class="img-responsive rounded-corner blog-img" src="img/blog/usa-roadtrip.png" alt="usa road trip"/>
+                        <p>{{locale.getLocalizedString('blog', 'imgLinkText')}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isComputerArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-phone my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'movingDivs')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'movingDivsDate')}}</div>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('blog', 'movingDivsText')}}<br/>
+                <div class="text-center">
+                    <a href="http://output.jsbin.com/zidulu">
+                        <img class="img-responsive blog-img" src="img/blog/switch.png" alt="reproduce button"/>
+                        <p>{{locale.getLocalizedString('blog', 'imgCodeLinkText')}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isComputerArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-phone my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'memoizationTitle')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'memoizationDate')}}</div>
+            </div>
+            <div class="panel-body">
+                <blockquote>
+                    <p>{{locale.getLocalizedString('blog', 'memoizationText')}}</p>
+                </blockquote>
+                {{locale.getLocalizedString('blog', 'memoizationLink')}}
+                <a href="http://jsbin.com/bowuhez/edit">{{locale.getLocalizedString('blog', 'codeLinkText')}}</a>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isGameArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-knight my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'ticktacktoe')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'ticktacktoeDate')}}</div>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('blog', 'ticktacktoeText')}}<br/>
+                <div class="text-center">
+                    <a href="http://output.jsbin.com/qetoze">
+                        <img class="img-responsive blog-img" src="img/blog/ttt.png" alt="reproduce button"/>
+                        <p>{{locale.getLocalizedString('blog', 'imgCodeLinkText')}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isComputerArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-phone my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'cs40Concepts')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'cs40ConceptsDate')}}</div>
+            </div>
+            <div class="panel-body">
+                <blockquote>
+                    <p>{{locale.getLocalizedString('blog', 'cs40ConceptsText')}}</p>
+                </blockquote>
+                <a href="http://carlcheo.com/compsci">{{locale.getLocalizedString('blog', 'linkText')}}</a>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isComputerArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-phone my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'reproduceBtn')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'reproduceBtnDate')}}</div>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('blog', 'reproduceBtnText')}}
+                <div class="text-center">
+                    <a href="http://output.jsbin.com/yaliqa">
+                        <img class="img-responsive rounded-corner blog-img" src="http://i.imgur.com/hwhsYwi.png" alt="reproduce button"/>
+                        <p>{{locale.getLocalizedString('blog', 'imgCodeLinkText')}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isComputerArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-phone my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'integrationCalc')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'integrationCalcDate')}}</div>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('blog', 'integrationCalcText')}}<br/><br/>
+                <div class="text-center">
+                    <a href="http://output.jsbin.com/beside">
+                        <img class="img-responsive rounded-corner blog-img" src="img/blog/integration.png" alt="reproduce button"/>
+                        <p>{{locale.getLocalizedString('blog', 'imgCodeLinkText')}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isTravelArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-plane my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'europeRoadTrip')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'europeRoadTripDate')}}</div>
+            </div>
+            <div class="panel-body">
+                <blockquote>
+                    <p>{{locale.getLocalizedString('blog', 'europeRoadTripText')}}</p>
+                </blockquote>
+                <div class="text-center">
+                    <a target="_blank" href="http://www.konbini.com/fr/tendances-2/voyage/road-trip-optimal-decouvrir-europe/" >
+                        <img class="img-responsive rounded-corner blog-img" src="img/blog/europe-roadtrip.png" alt="europe road trip"/>
+                        <p>{{locale.getLocalizedString('blog', 'imgLinkText')}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-3 sticky-right-menu hidden-sm hidden-xs">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-filter my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'filters')}}
+                </h3>
+            </div>
+            <div class="panel-body filters">
+                <input class="blog-checkbox" type="checkbox" ng-model="articleCtrl.areComputerArticlesVisible"/>
+                <i class="glyphicon glyphicon-phone my-icon my-icon-blog"></i>{{locale.getLocalizedString('blog', 'computer')}}<br/>
+                <input class="blog-checkbox" type="checkbox" ng-model="articleCtrl.areTravelArticlesVisible"/>
+                <i class="glyphicon glyphicon-plane my-icon my-icon-blog"></i>{{locale.getLocalizedString('blog', 'voyage')}}<br/>
+                <input class="blog-checkbox" type="checkbox" ng-model="articleCtrl.areGameArticlesVisible"/>
+                <i class="glyphicon glyphicon-knight my-icon my-icon-blog"></i>{{locale.getLocalizedString('blog', 'game')}}
+            </div>
+        </div>
+    </div>
+</div>

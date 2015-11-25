@@ -1,0 +1,22 @@
+<div id="alb-menu-btn">
+	<div>
+		<div class="alb-menu-left">
+            {{locale.getLocalizedString('photos', 'keyToolTip')}}<br/>
+            {{locale.getLocalizedString('photos', 'page')}} <span id="current_page"></span> {{locale.getLocalizedString('photos', 'of')}} <span id="total_page"></span> -
+            {{locale.getLocalizedString('photos', 'goto')}}<input type="text" size="1" id="go_page" ng-keydown="photoCtrl.goPage()" /><span class="small-size-font">{{locale.getLocalizedString('photos', 'enterToolTip')}}</span>
+		</div>
+		<div class="alb-menu-left">
+			<img src="img/photos/playwb.png"
+                 class="photos-nav-img alb-menu-img-left"
+                 ng-click="photoCtrl.goBack()">
+			<img src="img/photos/playwf.png"
+                 class="photos-nav-img alb-menu-img-right"
+                 ng-click="photoCtrl.goForward()">
+		</div>
+		<div class="alb-menu-right">
+			<button ng-click="photoCtrl.quitAlbum()">
+                {{locale.getLocalizedString('photos', 'backBtnLabel')}}</button>
+			<br>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,51 @@
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">
+                <div class="logo uppercase">
+                    <span>A</span>rnaud<span>H</span>ebert.com
+                </div>
+            </a>
+            <a href class="lang-link">
+                <img title="{{locale.getLocalizedString('header', 'changeLangTitle')}}"
+                     src="{{locale.getLocalizedString('header', 'changeLangImgUrl')}}"
+                     alt="change language"
+                     ng-click="locale.toggleLang()" />
+            </a>
+            <button type="button" class="navbar-toggle"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+            <li ng-class="{ active:tab.isSet('home') }">
+                <a href="#" data-toggle='collapse' data-target=".navbar-collapse" ng-click="tab.setTab('home')">{{locale.getLocalizedString('header', 'homeTab')}}</a>
+            </li>
+            <li ng-class="{ active:tab.isSet('blog') }">
+                <a href="#" data-toggle='collapse' data-target=".navbar-collapse" ng-click="tab.setTab('blog')">{{locale.getLocalizedString('header', 'blogTab')}}</a>
+            </li>
+            <li ng-class="{ active:tab.isSet('resume') }">
+                <a href="#" data-toggle='collapse' data-target=".navbar-collapse" ng-click="tab.setTab('resume')">{{locale.getLocalizedString('header', 'resumeTab')}}</a>
+            </li>
+            <li ng-class="{ active:tab.isSet('portfolio') }">
+                <a href="#" data-toggle='collapse' data-target=".navbar-collapse" ng-click="tab.setTab('portfolio')">{{locale.getLocalizedString('header', 'portfolioTab')}}</a>
+            </li>
+            <li ng-class="{ active:tab.isSet('photos') }">
+                <a href="#" data-toggle='collapse' data-target=".navbar-collapse" ng-click="tab.setTab('photos')">{{locale.getLocalizedString('header', 'photosTab')}}</a>
+            </li>
+            <!--li ng-class="{ active:tab.isSet('downloads') }">
+                <a href="#" ng-click="tab.setTab('downloads')">{{locale.getLocalizedString('header', 'downloadsTab')}}</a>
+            </li-->
+            <li ng-class="{ active:tab.isSet('links') }">
+                <a href="#" data-toggle='collapse' data-target=".navbar-collapse" ng-click="tab.setTab('links')">{{locale.getLocalizedString('header', 'linksTab')}}</a>
+            </li>
+            <li ng-class="{ active:tab.isSet('contact') }">
+                <a href="#" data-toggle='collapse' data-target=".navbar-collapse" ng-click="tab.setTab('contact')">{{locale.getLocalizedString('header', 'contactTab')}}</a>
+            </li>
+        </ul>
+    </div>
+</div>

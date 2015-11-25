@@ -1,0 +1,287 @@
+/* General section */
+
+/* Overrides bootstrap dotted outline */
+a {
+   outline: 0!important;
+}
+/* Always force scrollbar to avoid page jumps */
+html {
+    overflow-y: scroll;
+}
+
+a:link,
+a:hover,
+a:active {
+    text-decoration:none;
+}
+.panel-body ~ .panel-heading {
+    border-top:1px solid #ddd;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+
+.preformated {
+    white-space: pre;
+}
+/* increase font-size for icons */
+.my-icon,
+.my-icon-blog {
+    font-size: 16px;
+}
+.my-icon-blog {
+    margin-right:10px;
+}
+/* Reduce padding left for unsorted lists */
+ul {
+    padding-left:20px;
+}
+/* end general section */
+
+/* header classes */
+header {
+    background-color:white;
+    padding:10px 100px 0 100px;
+    position:fixed;
+    left:0;
+    top: 0;
+    width:100%;
+    z-index:1;
+}
+.logo {
+    font-size: 14px;
+    float: left;
+}
+.logo span {
+    color: #337ab7;
+    font-size:18px;
+    font-weight:bold;
+}
+.lang-item {
+    padding:11px 15px 0 15px;
+    float: right;
+}
+.lang-link {
+    position:relative;
+    top: 18px;
+    float: left;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+/* end header classes */
+
+/* pages classes */
+.content {
+    margin-top: 70px;
+}
+/* end pages classes */
+
+/* footer classes */
+footer {
+    border-top:1px solid #eee;
+    color:#777777;
+    font-size:10px;
+    padding:10px 0;
+    margin-top:20px;
+}
+/* end footer classes */
+
+/* Home page */
+.profile-img {
+    border-radius:20px;
+    float:left;
+    margin:25px 20px 25px 0;
+    width:100px;
+}
+#home-map-canvas {
+    border-radius:20px;
+    margin: 0 auto;
+    height:300px;
+    width:400px;
+}
+.presentation {
+    text-align:justify;
+    margin-top:10px;
+}
+.list-sm-margin {
+    padding-left:20px;
+}
+/* override Bootstrap default because I'm nesting the grid layout. */
+.col-md-12 .col-md-6:first-child {
+    padding-left:0;
+}
+.col-md-12 .col-md-6:last-child {
+    padding-right:0;
+}
+/* End home page */
+
+/* Resume page */
+.social-img {
+    height:32px;
+    margin-right:5px;
+    width:32px;
+}
+.award-img {
+    float:left;
+}
+.resume-assom-img {
+    height:40px;
+}
+/* End resume page */
+
+/* Download page */
+.downloads-img {
+    height:70px;
+    width:205px;
+}
+.downloads-img-ct img {
+    margin: 25px;
+}
+/* End download page */
+
+/* Contact page */
+.ng-invalid.ng-dirty {
+    border-color: red;
+}
+.ng-valid.ng-dirty {
+    border-color: green;
+}
+.form-btns input[type="submit"],
+.form-btns input[type="reset"] {
+    margin-left:5px;
+}
+/* End contact page */
+
+/* Links page */
+.assom-img {
+    height:109px;
+    width:200px;
+}
+.vbt-img {
+    height:95px;
+    width:250px;
+}
+.manvscors-img {
+    border-radius:30px;
+    height:110px;
+    width:250px;
+}
+.list-links li {
+    padding-top:5px;
+}
+/* End links page */
+
+/* Portfolio page */
+.portfolio-img {
+    margin-bottom:15px;
+    margin-right:15px;
+    width:250px;
+}
+.arecibo-img {
+    float:left;
+}
+.portfolio-img-ct {
+    float:left;
+}
+.legend-img-ct {
+    padding-top:70px;
+}
+/* End portfolio page */
+
+/* Photos page */
+.photos-sunset-img {
+    height:300px;
+    width:400px;
+}
+#photo-map-canvas {
+    border-radius:20px;
+    margin: 15px 0;
+    height:300px;
+    width:520px;
+}
+
+.body-photos {
+    background-color:black;
+}
+.is-dnone {
+    display:none;
+}
+.is-block {
+    display: block;
+}
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
+/* End photos page */
+
+/* Menu frag */
+#alb-menu-btn {
+	background-color: #505050;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width: 615px;
+	height: 65px;
+	margin: 0 auto;
+	padding: 10px 10px 0 10px;
+}
+.alb-menu-img-left:hover,
+.alb-menu-img-right:hover {
+	cursor:pointer;
+}
+.alb-menu-img-left,
+.alb-menu-img-right {
+    height:35px;
+    width:35px;
+}
+
+.alb-menu-left {
+	color: white;
+	margin-left: 30px;
+	float:left;
+  	text-align: center;
+}
+
+.alb-menu-right {
+	float:right;
+	margin-right: 20px;
+}
+.alb-menu-left input {
+    color: black;
+}
+
+.small-size-font {
+	font-size: 10px;
+}
+/* end menu frag */
+
+/* blog frag */
+.rounded-corner-small {
+    border-radius:10px;
+}
+.rounded-corner {
+    border-radius:20px;
+}
+.blog-img {
+    display:inline;
+}
+.category {
+    margin-right:10px;
+}
+.blog-checkbox {
+    margin-right: 10px!important;
+}
+.blog-date {
+    float:right;
+    font-size:12px;
+}
+#blog-articles .panel-title {
+    float:left;
+}
+.add-more {
+    margin:15px 0;
+    text-align:center;
+}
+.filters {
+    line-height:30px;
+}
+/* end blog frag */

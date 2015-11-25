@@ -1,0 +1,416 @@
+<div class="row content" ng-show="tab.isSet('resume')">
+	<div class="col-md-9 col-sm-12">
+		<div class="text-center" id="imgsAnchor">
+			<a href="www.linkedin.com/in/arnaudhebert">
+				<img class="social-img" src="img/social/linkedin.png" alt="linkedin" />
+			</a>
+			<a href="http://gist.github.com/harnaud">
+				<img class="social-img" src="img/social/github.png" alt="github" />
+			</a>
+			<a href="http://www.viadeo.com/fr/profile/arnaud.hebert6">
+				<img class="social-img" src="img/social/viadeo.png" alt="viadeo" />
+			</a>
+		</div>
+		<div class="text-center">
+			<h3>{{locale.getLocalizedString('resume', 'title')}}</h3>
+		</div>
+
+        <div class="panel panel-default">
+            <div class="panel-body row">
+                <div class="col-md-6 col-sm-6">
+                    <ul class="list-unstyled">
+                        <li>{{locale.getLocalizedString('resume', 'name')}}</li>
+                        <li>{{locale.getLocalizedString('resume', 'resident')}}</li>
+                        <li>{{locale.getLocalizedString('resume', 'phoneNumber')}}</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <ul class="list-unstyled">
+                        <li>{{locale.getLocalizedString('resume', 'birthDate')}}</li>
+                        <li>{{locale.getLocalizedString('resume', 'email')}}</li>
+                        <li>{{locale.getLocalizedString('resume', 'driverLicense')}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="objectiveAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('resume', 'objectiveSection')}}</h3>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('resume', 'objectiveText')}}
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="skillsAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('resume', 'skillsSection')}}</h3>
+            </div>
+            <div class="panel-heading">
+                {{locale.getLocalizedString('resume', 'programmingLanguages')}}
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>{{locale.getLocalizedString('resume', 'htmlCss')}}</li>
+                    <li>{{locale.getLocalizedString('resume', 'JavaScript')}}</li>
+                    <li>{{locale.getLocalizedString('resume', 'python')}}</li>
+                    <li>{{locale.getLocalizedString('resume', 'ccpp')}}</li>
+                    <li>{{locale.getLocalizedString('resume', 'xmlJsp')}}</li>
+                    <li>{{locale.getLocalizedString('resume', 'javaJ2ee')}}</li>
+                    <li>{{locale.getLocalizedString('resume', 'gmapsgcharts')}}</li>
+                </ul>
+            </div>
+            <div class="panel-heading">
+                {{locale.getLocalizedString('resume', 'softwares')}}
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>{{locale.getLocalizedString('resume', 'jira')}}</li>
+                    <li>{{locale.getLocalizedString('resume', 'cvs')}}</li>
+                    <li>{{locale.getLocalizedString('resume', 'idea')}}</li>
+                    <li>{{locale.getLocalizedString('resume', 'photoShop')}}</li>
+                    <li>{{locale.getLocalizedString('resume', 'netBeans')}}</li>
+                    <li>{{locale.getLocalizedString('resume', 'eclipse')}}</li>
+                </ul>
+            </div>
+            <div class="panel-heading">
+                {{locale.getLocalizedString('resume', 'languages')}}
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'french')}}</b>
+                        {{locale.getLocalizedString('resume', 'frenchDescription')}}
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'english')}}</b>
+                        {{locale.getLocalizedString('resume', 'englishDescription')}}
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'spanish')}}</b>
+                        {{locale.getLocalizedString('resume', 'spanishDescription')}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="jobExperienceAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('resume', 'jobExperience')}}</h3>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'splunkEngineer')}}</b>
+                        <br/>
+                        {{locale.getLocalizedString('resume', 'splunkEngineerText')}}
+                        <br/><br/>
+                        <b>{{locale.getLocalizedString('resume', 'technologies')}}</b>
+                        {{locale.getLocalizedString('resume', 'splunkTechnologies')}}
+                        <br/><br/><br/>
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'aribaEngineer')}}</b>
+                        <br/>
+                        {{locale.getLocalizedString('resume', 'aribaEngineerText')}}
+                        <br/><br/>
+                        {{locale.getLocalizedString('resume', 'aribaEngineerPromotion')}}
+                        <br/><br/>
+                        <img src="img/award.png"/>{{locale.getLocalizedString('resume', 'aribaEngineerAward')}}
+                        <br/><br/>
+                        {{locale.getLocalizedString('resume', 'multiTabProject')}}
+                        <br/>
+                        <b>{{locale.getLocalizedString('resume', 'technologies')}}</b>
+                        {{locale.getLocalizedString('resume', 'multiTabTechnologies')}}
+                        <br/><br/>
+
+                        {{locale.getLocalizedString('resume', 'mockTool')}}
+                        <br/><br/>
+
+                        {{locale.getLocalizedString('resume', 'nextGenUi')}}
+                        <br/>
+                        {{locale.getLocalizedString('resume', 'semanticCSS')}}
+                        <br/>
+                        {{locale.getLocalizedString('resume', 'newTechnologies')}}
+                        <br/>
+                        {{locale.getLocalizedString('resume', 'newWidgets')}}
+                        <br/>
+                        {{locale.getLocalizedString('resume', 'cssTool')}}
+                        <br/>
+                        {{locale.getLocalizedString('resume', 'crossBrowserTesting')}}
+                        <br/><br/>
+
+                        {{locale.getLocalizedString('resume', 'maintenance')}}
+                        <br/><br/>
+                        <b>{{locale.getLocalizedString('resume', 'technologies')}}</b>
+                        {{locale.getLocalizedString('resume', 'technologiesList')}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="internshipsAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('resume', 'internships')}}</h3>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'aribaInternshipTitle')}}</b>
+                        {{locale.getLocalizedString('resume', 'aribaInternshipDescription')}}
+                        <br/><br/>
+                        <img src="img/award.png" class="award-img"/>{{locale.getLocalizedString('resume', 'aribaInternshipAward')}}
+                        <br/><br/>
+                        <b>{{locale.getLocalizedString('resume', 'technologies')}}</b>
+                        {{locale.getLocalizedString('resume', 'aribaInternshipTechnologies')}}
+                        <br/><br/>
+                        {{locale.getLocalizedString('resume', 'aribaTextToPortfolio')}}
+                        <a href="#" ng-click="tab.setTab('portfolio')">{{locale.getLocalizedString('resume', 'aribaLinkToPortfolio')}}</a>
+                        <br/><br/>
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'atosInternshipTitle')}}</b>
+                        {{locale.getLocalizedString('resume', 'atosInternshipDescription')}}
+                        <br/>
+                        <b>{{locale.getLocalizedString('resume', 'technologies')}}</b>
+                        {{locale.getLocalizedString('resume', 'atosInternshipTechnologies')}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="educationAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('resume', 'education')}}</h3>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'esilDates')}}</b>
+                        {{locale.getLocalizedString('resume', 'esilEducation')}}<br/>
+                        {{locale.getLocalizedString('resume', 'esilList')}}
+                        <ul>
+                            <li>{{locale.getLocalizedString('resume', 'ooProgramming')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'database')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'html')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'networking')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'os')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'webApps')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'graph')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'algo')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'law')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'movie')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'imaging')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'iPhone')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'management')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'marketing')}}</li>
+                            <li>{{locale.getLocalizedString('resume', 'english')}}</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'prepaDates')}}</b>
+                        {{locale.getLocalizedString('resume', 'prepa')}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="projectsAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('resume', 'projects')}}</h3>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'roadSimulation')}}</b>
+                        {{locale.getLocalizedString('resume', 'roadSimulationDescription')}}
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'supermarketAisle')}}</b>
+                        {{locale.getLocalizedString('resume', 'supermarketAisleDescription')}}
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'adaptiveHuffmanCoding')}}</b>
+                        {{locale.getLocalizedString('resume', 'adaptiveHuffmanCodingDescription')}}
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'openingProject')}}</b>
+                        {{locale.getLocalizedString('resume', 'openingProjectDescription')}}
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'securityProject')}}</b>
+                        {{locale.getLocalizedString('resume', 'securityProjectDescription')}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="summerJobsAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('resume', 'summerJobs')}}</h3>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'macdoDates')}}</b>
+                        {{locale.getLocalizedString('resume', 'macdo')}}
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'sg1Dates')}}</b>
+                        {{locale.getLocalizedString('resume', 'sg1')}}
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'sg2Dates')}}</b>
+                        {{locale.getLocalizedString('resume', 'sg2')}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="miscellaneousAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('resume', 'miscellaneous')}}</h3>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'sports')}}</b>
+                        {{locale.getLocalizedString('resume', 'sportsDescription')}}
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'cinema')}}</b>
+                        {{locale.getLocalizedString('resume', 'cinemaDescription')}}
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'computer')}}</b>
+                        {{locale.getLocalizedString('resume', 'computerDescription')}}
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'music')}}</b>
+                        {{locale.getLocalizedString('resume', 'musicDescription')}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="communityLifeAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('resume', 'communityLife')}}</h3>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'assom')}}</b>
+                        {{locale.getLocalizedString('resume', 'assomDescription')}}
+                        http://bde.polymars.fr/
+                    </li>
+                    <li>
+                        <b>{{locale.getLocalizedString('resume', 'esil')}}</b>
+                        {{locale.getLocalizedString('resume', 'esilDescription')}}<br/>
+                        {{locale.getLocalizedString('resume', 'assoLink')}}
+                        <a href="http://assom.fr/" target="_blank">
+                            <img class="resume-assom-img" src="img/links/assom.png" alt="assom" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+	</div>
+	<div class="col-md-3 sticky-right-menu hidden-sm hidden-xs">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('common', 'fastNavigation')}}</h3>
+            </div>
+            <div class="panel-body">
+                <ul class="list-sm-margin">
+                    <li>
+                        <a class="anchor-link" href="#imgsAnchor">
+                            {{locale.getLocalizedString('resume', 'topOfPage')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anchor-link" href="#objectiveAnchor">
+                            {{locale.getLocalizedString('resume', 'objectiveSection')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anchor-link" href="#skillsAnchor">
+                            {{locale.getLocalizedString('resume', 'skillsSection')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anchor-link" href="#jobExperienceAnchor">
+                            {{locale.getLocalizedString('resume', 'jobExperience')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anchor-link" href="#internshipsAnchor">
+                            {{locale.getLocalizedString('resume', 'internships')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anchor-link" href="#educationAnchor">
+                            {{locale.getLocalizedString('resume', 'education')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anchor-link" href="#projectsAnchor">
+                            {{locale.getLocalizedString('resume', 'projects')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anchor-link" href="#summerJobsAnchor">
+                            {{locale.getLocalizedString('resume', 'summerJobs')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anchor-link" href="#miscellaneousAnchor">
+                            {{locale.getLocalizedString('resume', 'miscellaneous')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anchor-link" href="#communityLifeAnchor">
+                            {{locale.getLocalizedString('resume', 'communityLife')}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    {{locale.getLocalizedString('resume', 'downloadResumeTitle')}}
+                </h3>
+            </div>
+            <div class="panel-body">
+                <div>
+                    <a href="dl/Resume-AH.pdf" target="_blank">
+                        <span class="glyphicon glyphicon-download my-icon"
+                              title="{{locale.getLocalizedString('resume', 'downloadResume')}}"></span>
+                        {{locale.getLocalizedString('resume', 'downloadResume')}}
+                    </a>
+                </div>
+            </div>
+        </div>
+	</div>
+
+    <div class="col-sm-12 hidden visible-sm visible-xs">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    {{locale.getLocalizedString('resume', 'downloadResumeTitle')}}
+                </h3>
+            </div>
+            <div class="panel-body">
+                <a href="dl/Resume-AH.pdf" target="_blank">
+                    <span class="glyphicon glyphicon-download my-icon"
+                          title="{{locale.getLocalizedString('resume', 'downloadResume')}}"></span>
+                    {{locale.getLocalizedString('resume', 'downloadResume')}}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/events.js"></script>

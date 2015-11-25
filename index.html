@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="main" lang="{{locale.locale}}" ng-controller="LocaleController as locale">
+    <head>
+        <title>Arnaud Hebert - Web Developer, Traveller, Blogger</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Arnaud Hebert" />
+        <meta name="keywords" content="Arnaud, Hebert, Front-end, engineer, engineering, web, developer, web developer, FE engineer, blog, blogger, travel, traveller, photos" />
+        <meta name="description" content="Front-end development related articles and travel photos." />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/slides.css" />
+        <script src="js/lib/jquery-1.11.3.min.js"></script>
+        <script src="js/lib/angular.min.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <script src="js/main.js"></script>
+        <script src="js/localization.js"></script>
+        <script src="js/header.js"></script>
+        <script src="js/footer.js"></script>
+    </head>
+    <body ng-cloak class="ng-cloak" ng-controller="PhotoAlbumController as photoCtrl">
+
+        <div class="container" id="container" ng-controller="TrackController as trackCtrl">
+            <section ng-controller="TabController as tab">
+
+                <header main-header class="clearfix"></header>
+
+                <home-page></home-page>
+
+                <blog-page></blog-page>
+
+                <resume-page></resume-page>
+
+                <portfolio-page></portfolio-page>
+
+                <photos-page></photos-page>
+
+                <downloads-page></downloads-page>
+
+                <links-page></links-page>
+
+                <contact-page></contact-page>
+
+            </section>
+
+            <footer main-footer class="clearfix"></footer>
+        </div>
+        <div class="is-dnone" id="photo-album">
+            <photos-menu></photos-menu>
+            <div id="photos-ct"></div>
+        </div>
+        <script src="js/lib/bootstrap.min.js"></script>
+        <script src="js/lib/prettify.js"></script>
+        <script src="js/blog.js"></script>
+        <script src="js/contact.js"></script>
+        <script src="js/photos.js"></script>
+        <script src="js/photoMap.js"></script>
+        <script src="js/analytics.js"></script>
+    </body>
+</html>

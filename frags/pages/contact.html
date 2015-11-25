@@ -1,0 +1,78 @@
+<div class="row content" ng-show="tab.isSet('contact')">
+	<div class="col-md-12 col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('contact', 'formTitle')}}</h3>
+            </div>
+            <div class="panel-body">
+                <form name="contactForm"
+                      ng-controller="FormController as formCtrl"
+                      ng-submit="contactForm.$valid && formCtrl.postData()"
+                      novalidate>
+                    <h4>{{locale.getLocalizedString('contact', 'formTip')}}</h4>
+                    <fieldset class="form-group">
+                        <label>{{locale.getLocalizedString('contact', 'firstNameLabel')}}</label>
+                        <input ng-model="firstName"
+                               type="text"
+                               class="form-control"
+                               title="FirstName"
+                               required />
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label>{{locale.getLocalizedString('contact', 'lastNameLabel')}}</label>
+                        <input ng-model="lastName"
+                               type="text"
+                               class="form-control"
+                               title="LastName"
+                               required />
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label>{{locale.getLocalizedString('contact', 'emailLabel')}}</label>
+                        <input ng-model="email"
+                               type="email"
+                               class="form-control"
+                               placeholder="first.last@gmail.com"
+                               title="Email"
+                               required />
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <textarea ng-model="message"
+                                  class="form-control"
+                                  placeholder="{{locale.getLocalizedString('contact', 'messagePlaceholder')}}"
+                                  title="Message"
+                                  rows="6" cols="80"
+                                  required>
+                        </textarea>
+                    </fieldset>
+                    <fieldset class="form-group form-btns">
+                        <input type="submit"
+                               class="btn btn-primary pull-right"
+                               value="{{locale.getLocalizedString('contact', 'submitButtonLabel')}}"/>
+                        <input type="reset"
+                               class="btn btn-default pull-right"
+                               value="{{locale.getLocalizedString('contact', 'resetButtonLabel')}}"
+                               ng-click="formCtrl.resetData()" />
+                    </fieldset>
+
+                    <div class="alert alert-danger alert-dismissible fade in" role="alert"
+                         ng-show="formCtrl.isFailure()">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <strong>{{locale.getLocalizedString('contact', 'errorMsg')}}</strong>
+                        {{locale.getLocalizedString('contact', 'tryAgainLater')}}
+                    </div>
+
+                    <div class="alert alert-success alert-dismissible fade in" role="alert"
+                         ng-show="formCtrl.isSuccess()">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        {{locale.getLocalizedString('contact', 'success')}}
+                    </div>
+
+                </form>
+            </div>
+        </div>
+	</div>
+</div>

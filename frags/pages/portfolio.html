@@ -1,0 +1,159 @@
+<div class="row content" ng-show="tab.isSet('portfolio')">
+	<div class="col-md-9 col-sm-12">
+
+        <div class="panel panel-default" id="websiteAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('portfolio', 'thisWebsite')}}</h3>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('portfolio', 'thisWebsiteText')}}
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="githubAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('portfolio', 'gitHub')}}</h3>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('portfolio', 'gitHubText')}}
+                <a href="https://gist.github.com/harnaud" target='_blank'>https://gist.github.com/harnaud</a>
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="openSourceAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('portfolio', 'openSourceContribution')}}</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    {{locale.getLocalizedString('portfolio', 'openSourceContributionText1')}}
+                    <a href='http://aribaweb.org/' target='_blank'>http://aribaweb.org/</a>
+                    {{locale.getLocalizedString('portfolio', 'openSourceContributionText2')}}
+                </p>
+                <ul>
+                    <li>{{locale.getLocalizedString('portfolio', 'tableToDivLayout')}}</li>
+                    <li>{{locale.getLocalizedString('portfolio', 'reSkinOfComponents')}}</li>
+                    <li>{{locale.getLocalizedString('portfolio', 'implementComponents')}}</li>
+                    <li>{{locale.getLocalizedString('portfolio', 'troubleshooting')}}</li>
+                    <li>{{locale.getLocalizedString('portfolio', 'crossBrowserCompatibility')}}</li>
+                    <li>{{locale.getLocalizedString('portfolio', 'semanticCSS')}}</li>
+                    <li>{{locale.getLocalizedString('portfolio', 'addJQuery')}}</li>
+                </ul>
+                <h4>{{locale.getLocalizedString('portfolio', 'newDashboard')}}</h4>
+                <div class="clearfix">
+                    {{locale.getLocalizedString('portfolio', 'newDashboardText')}}<br/><br/>
+                    <a href="img/portfolio/ariba-ui2.png" target="_blank">
+                        <img class="img-responsive portfolio-img rounded-corner-small"
+                             src="img/portfolio/ariba-ui2-min.png" alt="new dashboard" />
+                    </a>
+                </div>
+                <h4>{{locale.getLocalizedString('portfolio', 'before')}}</h4>
+                <div class="clearfix">
+                    {{locale.getLocalizedString('portfolio', 'beforeText')}}
+                    <a target='_blank' href='http://www.youtube.com/watch?v=xpM9IHQXJgM'>
+                        http://www.youtube.com/watch?v=xpM9IHQXJgM
+                    </a><br/><br/>
+                    <a href="img/portfolio/ariba-ui-before.png" target="_blank">
+                        <img class="img-responsive portfolio-img rounded-corner-small"
+                             src="img/portfolio/ariba-ui-before-min.png"
+                             alt="dashboard before" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" id="realTimeVisuAnchor">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('portfolio', 'realtimeVisuApp')}}</h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                    {{locale.getLocalizedString('portfolio', 'realtimeVisuAppText')}}
+                </p>
+                <p>
+                <h4>{{locale.getLocalizedString('portfolio', 'visuMenu')}}</h4>
+                </p>
+                <div class="clearfix">
+                    <div class="portfolio-img-ct">
+                        <a href="img/portfolio/arecibo1.png" target="_blank">
+                            <img class="img-responsive portfolio-img arecibo-img rounded-corner-small"
+                                 src="img/portfolio/arecibo1-min.png"
+                                 alt="menu of app" />
+                        </a>
+                    </div>
+                </div>
+                <p>
+                <h4>{{locale.getLocalizedString('portfolio', 'visuExamples')}}</h4>
+                </p>
+                <div class="clearfix">
+                    <div class="portfolio-img-ct">
+                        <a href="img/portfolio/arecibo2.png" target="_blank">
+                            <img class="img-responsive portfolio-img arecibo-img rounded-corner-small"
+                                 src="img/portfolio/arecibo2-min.png"
+                                 alt="circles visu" />
+                        </a>
+                    </div>
+                    <div class="legend-img-ct">
+                        {{locale.getLocalizedString('portfolio', 'circleDescription')}}
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="portfolio-img-ct">
+                        <a href="img/portfolio/arecibo3.png" target="_blank">
+                            <img class="img-responsive portfolio-img arecibo-img rounded-corner-small"
+                                 src="img/portfolio/arecibo3-min.png"
+                                 alt="curves visu" />
+                        </a>
+                    </div>
+                    <div class="legend-img-ct">
+                        {{locale.getLocalizedString('portfolio', 'curveDescription')}}
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="portfolio-img-ct">
+                        <a href="img/portfolio/arecibo4.png" target="_blank">
+                            <img class="img-responsive portfolio-img arecibo-img rounded-corner-small"
+                                 src="img/portfolio/arecibo4-min.png"
+                                 alt="moving dots visu" />
+                        </a>
+                    </div>
+                    <div class="legend-img-ct">
+                        {{locale.getLocalizedString('portfolio', 'movingDotsDescription')}}
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+	<div class="col-md-3 sticky-right-menu hidden-sm hidden-xs">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{locale.getLocalizedString('common', 'fastNavigation')}}</h3>
+            </div>
+            <div class="panel-body">
+                <ul class="list-sm-margin">
+                    <li>
+                        <a class="anchor-link" href="#websiteAnchor">
+                            {{locale.getLocalizedString('portfolio', 'thisWebsite')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anchor-link" href="#githubAnchor">
+                            {{locale.getLocalizedString('portfolio', 'gitHub')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anchor-link" href="#openSourceAnchor">
+                            {{locale.getLocalizedString('portfolio', 'openSourceContribution')}}
+                        </a>
+                    </li>
+                    <li>
+                        <a class="anchor-link" href="#realTimeVisuAnchor">
+                            {{locale.getLocalizedString('portfolio', 'realtimeVisuApp')}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+	</div>
+</div>
+<script type="text/javascript" src="js/events.js"></script>

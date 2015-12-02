@@ -103,13 +103,21 @@
                 'en' : 'Corsica',
                 'fr' : 'Corse'
             },
-            'miamiDate' : {
+            'jan2016' : {
                 'en' : 'Jan 2016',
                 'fr' : 'Jan 2016'
             },
             'miami' : {
                 'en' : 'Miami, FL',
                 'fr' : 'Miami'
+            },
+            'toronto' : {
+                'en' : 'Toronto, ON',
+                'fr' : 'Toronto'
+            },
+            'niagara' : {
+                'en' : 'Niagara Falls, ON',
+                'fr' : 'Les chutes du Niagara'
             },
             'bahamas' : {
                 'en' : 'The Bahamas',

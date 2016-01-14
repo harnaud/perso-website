@@ -618,12 +618,12 @@
                 'fr' : 'Les marqueurs sur la carte Google Maps sont les endroits que j\'ai visité. Cliquez sur l\'album que vous souhaitez visualiser dans la liste ci-contre.'
             },
             'states' : {
-                'en' : 'So far, I\'ve been to 14 US states: California, Oregon, Washington, Nevada, Arizona, Utah, Montana, Idaho, Wyoming, Illinois, Connecticut, Louisiana, New-York and Hawaii.',
-                'fr' : 'J\'ai visité 14 états: Californie, Oregon, Washington, Nevada, Arizona, Utah, Montana, Idaho, Wyoming, Illinois, Connecticut, Louisiane, New-York et Hawaii.'
+                'en' : 'So far, I\'ve been to 15 US states: California, Oregon, Washington, Nevada, Arizona, Utah, Montana, Idaho, Wyoming, Illinois, Connecticut, Louisiana, Florida, New-York and Hawaii.',
+                'fr' : 'J\'ai visité 15 états: Californie, Oregon, Washington, Nevada, Arizona, Utah, Montana, Idaho, Wyoming, Illinois, Connecticut, Louisiane, Floride, New-York et Hawaii.'
             },
             'countries' : {
-                'en' : 'I\'ve visited 11 countries: Canada, France, Hungary, India, Italy, Czech Republic, New Caledonia, Spain, United Kingdom, Mexico and United States. Here is a cool website that helps you keep track:',
-                'fr' : 'J\'ai visité 11 pays: Canada, France, Hongrie, Indie, Italie, République Tchèque, Nouvelle Calédonie, Espagne, Royaume-Uni, Mexique et Etats-Unis. Voici un cool site web qui vous aide à garder le compte:'
+                'en' : 'And I\'ve visited 11 countries: Canada, France, Hungary, India, Italy, the Czech Republic, New Caledonia, Spain, the United Kingdom, Mexico and the United States. Here is a cool website that helps you keep track:',
+                'fr' : 'Et j\'ai visité 11 pays: Canada, France, Hongrie, Indie, Italie, République Tchèque, Nouvelle Calédonie, Espagne, Royaume-Uni, Mexique et Etats-Unis. Voici un cool site web qui vous aide à garder le compte:'
             },
             'upToDateWebBrowser' : {
                 'en' : 'Attention! In order to see the album, your web browser must be up-to-date.',

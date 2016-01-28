@@ -123,6 +123,14 @@
                 'en' : 'The Bahamas',
                 'fr' : 'Bahamas'
             },
+            'may2016' : {
+                'en' : 'May 2016',
+                'fr' : 'Mai 2016'
+            },
+            'havasu' : {
+                'en' : 'Havasu Waterfalls',
+                'fr' : "Cascade d'Havasu"
+            },
             'london' : {
                 'en' : 'London, UK',
                 'fr' : 'Londres'
@@ -623,11 +631,15 @@
             },
             'countries' : {
                 'en' : 'And I\'ve visited 11 countries: Canada, France, Hungary, India, Italy, the Czech Republic, New Caledonia, Spain, the United Kingdom, Mexico and the United States. Here is a cool website that helps you keep track:',
-                'fr' : 'Et j\'ai visité 11 pays: Canada, France, Hongrie, Indie, Italie, République Tchèque, Nouvelle Calédonie, Espagne, Royaume-Uni, Mexique et Etats-Unis. Voici un cool site web qui vous aide à garder le compte:'
+                'fr' : 'Et j\'ai visité 11 pays: Canada, France, Hongrie, Inde, Italie, République Tchèque, Nouvelle Calédonie, Espagne, Royaume-Uni, Mexique et Etats-Unis. Voici un site web pratique qui vous aide à garder le compte:'
             },
             'upToDateWebBrowser' : {
                 'en' : 'Attention! In order to see the album, your web browser must be up-to-date.',
                 'fr' : 'Attention! Votre navigateur doit être à jour pour pouvoir visualiser correctement les albums.'
+            },
+            'albumPhotosSectionTitle' : {
+                'en' : 'Photo albums',
+                'fr' : 'Albums photos'
             },
             'keyToolTip' : {
                 'en' : 'Press left/right keys or the following arrows to move:',

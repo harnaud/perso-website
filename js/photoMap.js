@@ -116,9 +116,10 @@
         addMarker(map, 43.891395, -0.499039, negativeImg, 'Mont-de-Marsan', 'Mont-de-Marsan');
         addMarker(map, 21.161079, -86.846443, negativeImg, 'Cancun', 'Cancun');
         addMarker(map, 25.761902, -80.193660, negativeImg, 'Miami', 'Miami');
+        addMarker(map, 43.660560, -79.382873, negativeImg, 'Toronto', 'Toronto');
+        addMarker(map, 43.084017, -79.072720, negativeImg, 'Niagara Falls', 'Niagara Falls');
         // TO BE DONE NEXT
-        addMarker(map, 43.660560, -79.382873, orangeImg, 'Toronto', 'Toronto');
-        addMarker(map, 43.084017, -79.072720, orangeImg, 'Niagara Falls', 'Niagara Falls');
+        addMarker(map, 36.255322, -112.698047, orangeImg, 'Havasu Falls', 'Havasu Falls');
 
     };
 

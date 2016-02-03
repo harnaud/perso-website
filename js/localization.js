@@ -512,8 +512,8 @@
                 'fr' : 'Ce site internet'
             },
             'thisWebsiteText' : {
-                'en' : 'As an front-end software engineer, a website is essential. This website is made of HTML5, CSS3, Ajax, jQuery, PHP, Bootstrap, AngularJS, several computer science skills that I learnt at school or on my own. It is also very usefull to share data and to introduce myself. As I am adding more and more code to this website, this is becoming a show-case of my skills',
-                'fr' : 'En tant que développeur web, un site web est essentiel. Ce site est fait en HTML5, CSS3 et utilise les technologies PHP, Ajax, Bootstrap, AngularJS et jQuery que j\'ai pu apprendre soit à l\'école soit par moi-même. Cela me permet d\'avoir un site pour me présenter, pour que l\'on se renseigne sur moi et pour partager des fichiers.'
+                'en' : 'As an front-end software engineer, a website is essential. This website is made of HTML5, CSS3, Ajax, jQuery, PHP, Bootstrap, AngularJS, several computer science skills that I learnt at school or on my own. It is also very usefull to share data and to introduce myself. As I am adding more and more code to this website, this is becoming a show-case of my skills. You can check out the code here:',
+                'fr' : 'En tant que développeur web, un site web est essentiel. Ce site est fait en HTML5, CSS3 et utilise les technologies PHP, Ajax, Bootstrap, AngularJS et jQuery que j\'ai pu apprendre soit à l\'école soit par moi-même. Cela me permet d\'avoir un site pour me présenter, pour que l\'on se renseigne sur moi et pour partager des fichiers. Vous pouvez voir le code ici: '
             },
             'gitHub' : {
                 'en' : 'My GitHub',

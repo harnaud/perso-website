@@ -109,6 +109,7 @@
         addMarker(map, 43.723002, 10.396514, negativeImg, 'Pise', 'Pise');
         addMarker(map, 42.107274, 9.088436, negativeImg, 'Corsica', 'Corsica');
         addMarker(map, 50.075453, 14.436810, negativeImg, 'Prague', 'Prague');
+        addMarker(map, 43.948457, 4.808531, negativeImg, 'Avignon', 'Avignon');
         addMarker(map, 43.293386, 5.368060, negativeImg, 'Marseille', 'Marseille');
         addMarker(map, 48.856939, 2.350321, negativeImg, 'Paris', 'Paris');
         addMarker(map, 45.762246, 4.835462, negativeImg, 'Lyon', 'Lyon');

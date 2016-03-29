@@ -81,6 +81,7 @@
         addMarker(map, 37.592859, -112.187283, negativeImg, 'Bryce Canyon', 'Bryce Canyon');
         addMarker(map, 37.002326, -110.111224, negativeImg, 'Monument Valley', 'Monument Valley');
         addMarker(map, 36.057075, -112.104382, negativeImg, 'Grand Canyon', 'Grand Canyon');
+        addMarker(map, 33.447114, -112.068782, negativeImg, 'Phoenix', 'Phoenix');
         addMarker(map, 35.037814, -115.614863, negativeImg, 'Mojave', 'Mojave');
         addMarker(map, 44.418994, -110.571107, negativeImg, 'Yellowstone', 'Yellowstone');
         addMarker(map, 43.791603, -110.668894, negativeImg, 'Grand Teton', 'Grand Teton');

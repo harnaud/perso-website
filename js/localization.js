@@ -17,7 +17,7 @@
         };
     });
 
-    var age = function() {
+    var currentAge = function() {
         var birthdate = new Date(1989, 5, 29);
         var ageDifMs = Date.now() - birthdate.getTime();
         var ageDate = new Date(ageDifMs);
@@ -88,8 +88,8 @@
                 'fr' : 'Où suis-je?'
             },
             'presentationText' : {
-                'en' : 'Welcome! My name is Arnaud, I am '+age()+' and I am a UI Developer/Front-end Software Engineer, blogger, traveller. I have a Master\'s degree in Computer Science. My speciality is front-end development. I thrive in an environment where I can diversify my knowledge, learn more every day and improve my skills in Web Development by learning cutting edge technologies and work on innovative products as part of a disruptive company.',
-                'fr' : 'Bienvenue sur ce site. Je m\'appelle Arnaud, j\'ai '+age()+' ans et je suis UI développeur/ingénieur informaticien, je suis un blogueur et voyageur. Je suis diplômé de Polytech\'Marseille - ESIL. Ma specialité est le développement web. Je prospère dans un environnement où je peux diversifier et améliorer mes connaissances et mon savoir-faire en développement web en utilisant les technologies à la pointe et en travaillant sur des produits innovants.'
+                'en' : 'Welcome! My name is Arnaud, I am '+currentAge()+' and I am a UI Developer/Front-end Software Engineer, blogger, traveller. I have a Master\'s degree in Computer Science. My speciality is front-end development. I thrive in an environment where I can diversify my knowledge, learn more every day and improve my skills in Web Development by learning cutting edge technologies and work on innovative products as part of a disruptive company.',
+                'fr' : 'Bienvenue sur ce site. Je m\'appelle Arnaud, j\'ai '+currentAge()+' ans et je suis UI développeur/ingénieur informaticien, je suis un blogueur et voyageur. Je suis diplômé de Polytech\'Marseille - ESIL. Ma specialité est le développement web. Je prospère dans un environnement où je peux diversifier et améliorer mes connaissances et mon savoir-faire en développement web en utilisant les technologies à la pointe et en travaillant sur des produits innovants.'
             },
             'toVisitNext' : {
                 'en' : 'To visit next',
@@ -964,8 +964,8 @@
                 'fr' : 'Résident aux Etats-Unis'
             },
             'birthDate' : {
-                'en' : age()+' years old',
-                'fr' : age()+' ans'
+                'en' : currentAge()+' years old',
+                'fr' : currentAge()+' ans'
             },
             'email' : {
                 'en' : 'E-mail: pro (at) arnaudhebert.com',

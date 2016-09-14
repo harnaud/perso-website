@@ -1,13 +1,13 @@
 <div class="row content" ng-show="tab.isSet('resume')">
 	<div class="col-md-9 col-sm-12">
 		<div class="text-center" id="imgsAnchor">
-			<a href="www.linkedin.com/in/arnaudhebert">
+			<a target="_blank" href="http://www.linkedin.com/in/arnaudhebert">
 				<img class="social-img" src="img/social/linkedin.png" alt="linkedin" />
 			</a>
-			<a href="http://gist.github.com/harnaud">
+			<a target="_blank" href="http://gist.github.com/harnaud">
 				<img class="social-img" src="img/social/github.png" alt="github" />
 			</a>
-			<a href="http://www.viadeo.com/fr/profile/arnaud.hebert6">
+			<a target="_blank" href="http://www.viadeo.com/fr/profile/arnaud.hebert6">
 				<img class="social-img" src="img/social/viadeo.png" alt="viadeo" />
 			</a>
 		</div>
@@ -166,7 +166,7 @@
                         {{locale.getLocalizedString('resume', 'aribaInternshipTechnologies')}}
                         <br/><br/>
                         {{locale.getLocalizedString('resume', 'aribaTextToPortfolio')}}
-                        <a href="#" ng-click="tab.setTab('portfolio')">{{locale.getLocalizedString('resume', 'aribaLinkToPortfolio')}}</a>
+                        <a href="javascript:void(0)" ng-click="tab.setTab('portfolio')">{{locale.getLocalizedString('resume', 'aribaLinkToPortfolio')}}</a>
                         <br/><br/>
                     </li>
                     <li>
@@ -309,7 +309,7 @@
                         <b>{{locale.getLocalizedString('resume', 'esil')}}</b>
                         {{locale.getLocalizedString('resume', 'esilDescription')}}<br/>
                         {{locale.getLocalizedString('resume', 'assoLink')}}
-                        <a href="http://assom.fr/" target="_blank">
+                        <a target="_blank" href="http://assom.fr/">
                             <img class="resume-assom-img" src="img/links/assom.png" alt="assom" />
                         </a>
                     </li>
@@ -386,7 +386,7 @@
             </div>
             <div class="panel-body">
                 <div>
-                    <a href="dl/Resume-AH.pdf" target="_blank">
+                    <a target="_blank" href="dl/Resume-AH.pdf">
                         <span class="glyphicon glyphicon-download my-icon"
                               title="{{locale.getLocalizedString('resume', 'downloadResume')}}"></span>
                         {{locale.getLocalizedString('resume', 'downloadResume')}}
@@ -404,7 +404,7 @@
                 </h3>
             </div>
             <div class="panel-body">
-                <a href="dl/Resume-AH.pdf" target="_blank">
+                <a target="_blank" href="dl/Resume-AH.pdf">
                     <span class="glyphicon glyphicon-download my-icon"
                           title="{{locale.getLocalizedString('resume', 'downloadResume')}}"></span>
                     {{locale.getLocalizedString('resume', 'downloadResume')}}

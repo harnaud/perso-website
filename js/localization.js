@@ -143,6 +143,26 @@
                 'en' : 'Havasu Waterfalls',
                 'fr' : "Cascade d'Havasu"
             },
+            'nov2016' : {
+                'en' : 'Nov 2016',
+                'fr' : 'Nov 2016'
+            },
+            'colombia' : {
+                'en' : 'Colombia',
+                'fr' : "Colombie"
+            },
+            'dec2016' : {
+                'en' : 'Dec 2016',
+                'fr' : 'Dec 2016'
+            },
+            'singapore' : {
+                'en' : 'Singapore',
+                'fr' : "Singapour"
+            },
+            'bali' : {
+                'en' : 'Bali',
+                'fr' : "Bali"
+            },
             'london' : {
                 'en' : 'London, UK',
                 'fr' : 'Londres'

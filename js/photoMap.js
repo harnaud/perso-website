@@ -67,8 +67,12 @@
         addMarker(map, 37.334613, -121.882651, negativeImg, 'San Jose', 'San Jose');
         addMarker(map, 34.419268, -119.695888, negativeImg, 'Santa Barbara', 'Santa Barbara');
         addMarker(map, 39.307586, -123.796412, negativeImg, 'Mendocino', 'Mendocino');
+        addMarker(map, 36.598773, -121.895137, negativeImg, 'Monterey', 'Monterey');
+        addMarker(map, 36.973121, -122.027454, negativeImg, 'Santa Cruz', 'Santa Cruz');
         addMarker(map, 38.583467, -121.472447, negativeImg, 'Sacramento', 'Sacramento');
         addMarker(map, 39.069467, -120.046279, negativeImg, 'Lake Tahoe', 'Lake Tahoe');
+        addMarker(map, 37.743744, -119.595436, negativeImg, 'Yosemite', 'Yosemite National Park');
+        addMarker(map, 36.490420, -121.183650, negativeImg, 'Pinnacles', 'Pinnacles National Park');
         addMarker(map, 40.738960, -73.994787, negativeImg, 'New York City', 'New York City');
         addMarker(map, 41.033507, -73.625553, negativeImg, 'Connecticut', 'Connecticut');
         addMarker(map, 41.873626, -87.630532, negativeImg, 'Chicago', 'Chicago');
@@ -120,9 +124,6 @@
         addMarker(map, 25.761902, -80.193660, negativeImg, 'Miami', 'Miami');
         addMarker(map, 43.660560, -79.382873, negativeImg, 'Toronto', 'Toronto');
         addMarker(map, 43.084017, -79.072720, negativeImg, 'Niagara Falls', 'Niagara Falls');
-        // TO BE DONE NEXT
-        addMarker(map, 36.255322, -112.698047, orangeImg, 'Havasu Falls', 'Havasu Falls');
-
     };
 
     window.initPhotoMap = initPhotoMap;

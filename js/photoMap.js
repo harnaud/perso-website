@@ -124,6 +124,11 @@
         addMarker(map, 25.761902, -80.193660, negativeImg, 'Miami', 'Miami');
         addMarker(map, 43.660560, -79.382873, negativeImg, 'Toronto', 'Toronto');
         addMarker(map, 43.084017, -79.072720, negativeImg, 'Niagara Falls', 'Niagara Falls');
+        // TO BE DONE NEXT
+        addMarker(map, 6.254340, -75.569272, orangeImg, 'Medelin', 'Medelin');
+        addMarker(map, 1.332575, 103.853875, orangeImg, 'Singapore', 'Singapore');
+        addMarker(map, -8.344296, 115.104327, orangeImg, 'Bali', 'Bali');
+
     };
 
     window.initPhotoMap = initPhotoMap;

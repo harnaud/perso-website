@@ -715,6 +715,18 @@
                 'en' : 'Click the image to see the code.',
                 'fr' : 'Cliquez sur l\'image pour voir le code'
             },
+            'expandable' : {
+                'en' : 'Full screen expandable container',
+                'fr' : 'Etendre un conteneur en plein écran'
+            },
+            'expandableDate' : {
+                'en' : 'September 15th, 2016',
+                'fr' : '4 septembre 2016'
+            },
+            'expandableText' : {
+                'en' : 'This is a code snippet showing how a container, no matter it\'s position in the DOM, can be expanded to full screen. It\'s very useful for previewing a picture and allow user to see a full screen/full size version of the picture.',
+                'fr' : 'Ce petit morceau de code permet montre qu\'il est possible d\'étendre un container, peu importe sa position dans le DOM, à une vue pleine écran. Ceci est vraiment très utile lorsque l\'on veut charger seulement un miniature d\'une image et que l\'utilisateur ne va pas forcément regarder l\'image en pleine résolution, alors on gagne en temps de chargement sur la page.'
+            },
             'memoizationTitle' : {
                 'en' : 'JavaScript \'memoization\' small example',
                 'fr' : 'Petit exemple de JavaScript \'Mémoïsation\''
@@ -754,6 +766,18 @@
             'europeRoadTripText' : {
                 'en' : '"Randal Olson, blogger and data analyst, wrote an algorithm to calculate the best possible way of seeing 50 different sights in all Europe."',
                 'fr' : '"Armé d’un algorithme et d’une liste de cinquante lieux incontournables en Europe, Randal Olson, blogueur et analyste de données, propose son parcours optimal sur le Vieux Continent."'
+            },
+            '30aventures' : {
+                'en' : '30 Must-Do Adventures in California',
+                'fr' : '30 aventures à faire en California'
+            },
+            '30aventuresDate' : {
+                'en' : 'September 16th, 2016',
+                'fr' : '16 septembre 2016'
+            },
+            '30aventuresText' : {
+                'en' : 'It\'s no secret that California is home to some incredible outdoor destinations. From the serrated ridgelines of the High Sierra to the gargantuan ancient coast redwoods of the north coast, the territory comprising the golden state is a diverse, alluring and awe-inspiring landscape.',
+                'fr' : 'C\'est bien connu que la Californie est le lieu d\'incroyables destinations de plein air. Des crêtes dentelées de la High Sierra aux gargantuesques séquoias de la côte antique de la côte nord, l\'état de la ruée vers l\'or possède un paysage varié, séduisant et impressionnant.'
             },
             'gr20' : {
                 'en' : 'GR 20 - the toughest long distance trail in Europe',

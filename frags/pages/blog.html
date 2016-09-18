@@ -1,6 +1,41 @@
 <div class="row content" ng-show="tab.isSet('blog')" ng-controller="ArticleController as articleCtrl">
     <div class="col-md-9 col-sm-12" id="blog-articles">
 
+        <div class="panel panel-default" ng-show="articleCtrl.isTravelArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-plane my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', '30aventures')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', '30aventuresDate')}}</div>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('blog', '30aventuresText')}}<br/><br/>
+                <div class="text-center">
+                    <a target="_blank" href="http://www.outdoorproject.com/blog-news/30-must-do-adventures-california" >
+                        <img class="img-responsive rounded-corner blog-img" src="img/blog/30aventures.png" alt="30aventures"/>
+                        <p>{{locale.getLocalizedString('blog', 'imgLinkText')}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default" ng-show="articleCtrl.isComputerArticleVisible()">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-phone my-icon my-icon-blog"></i>
+                    {{locale.getLocalizedString('blog', 'expandable')}}
+                </h3>
+                <div class="blog-date">{{locale.getLocalizedString('blog', 'expandableDate')}}</div>
+            </div>
+            <div class="panel-body">
+                {{locale.getLocalizedString('blog', 'expandableText')}}
+                <a target="_blank" href="http://jsbin.com/zejicep/edit?html,js,output">
+                    {{locale.getLocalizedString('blog', 'codeLinkText')}}
+                </a>
+            </div>
+        </div>
+
         <div class="panel panel-default" ng-show="articleCtrl.isComputerArticleVisible()">
             <div class="panel-heading clearfix">
                 <h3 class="panel-title">
@@ -15,7 +50,7 @@
                 </blockquote>
                 {{locale.getLocalizedString('blog', 'parallelText')}}
                 <a target="_blank" href="http://jsbin.com/hotoka/edit?html,js,output">
-                    {{locale.getLocalizedString('blog', 'codeLinkText')}}</p>
+                    {{locale.getLocalizedString('blog', 'codeLinkText')}}
                 </a>
             </div>
         </div>
@@ -95,7 +130,7 @@
             <div class="panel-body">
                 {{locale.getLocalizedString('blog', 'trackerText')}}
                 <a target="_blank" href="http://output.jsbin.com/yapefo">
-                    {{locale.getLocalizedString('blog', 'codeLinkText')}}</p>
+                    {{locale.getLocalizedString('blog', 'codeLinkText')}}
                 </a>
             </div>
         </div>

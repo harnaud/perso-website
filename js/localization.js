@@ -983,10 +983,6 @@
                 'en' : 'Arnaud HEBERT',
                 'fr' : 'Arnaud HEBERT'
             },
-            'resident' : {
-                'en' : 'Resident of the United States Of America',
-                'fr' : 'Résident aux Etats-Unis'
-            },
             'birthDate' : {
                 'en' : currentAge()+' years old',
                 'fr' : currentAge()+' ans'
@@ -995,21 +991,17 @@
                 'en' : 'E-mail: pro (at) arnaudhebert.com',
                 'fr' : 'E-mail : pro (at) arnaudhebert.com'
             },
-            'driverLicense' : {
-                'en' : 'CA Driver\'s license',
-                'fr' : 'Permis B - Voiture'
-            },
             'phoneNumber' : {
-                'en' : '+1 (415) 326 4540',
-                'fr' : '+1 (415) 326 4540'
+                'en' : '+1 (669) 220 8131',
+                'fr' : '+1 (669) 220 8131'
             },
             'objectiveSection' : {
                 'en' : 'Objective',
                 'fr' : 'Objectif'
             },
             'objectiveText' : {
-                'en' : 'I always want to diversify my knowledge and improve my skills in Web Development through learning about cutting edge technologies and working on innovative products as part of a disruptive company.',
-                'fr' : 'Je veux continuellement diversifier mes compétences et gagner de l\'expérience en développement web en apprenant des technologies à la pointe et en travaillant sur des produits innovants.'
+                'en' : 'Self taught UI Developer/Front-end Software Engineer, blogger, traveller. I have a Master\'s degree in Computer Science and my specialty is front-end development. I thrive in an environment where I can diversify my knowledge, learn more every day and improve my skills in Web Development by learning cutting edge technologies and work on innovative products.',
+                'fr' : 'Titulaire d\'un diplôme généraliste d\'ingénieur informatique réseaux et multimédia, autodidacte développeur web, ingénieur UI/front-end, blogeur, voyageur. Je veux continuellement diversifier mes compétences et gagner de l\'expérience en développement web en apprenant des technologies à la pointe et en travaillant sur des produits innovants.'
             },
             'skillsSection' : {
                 'en' : 'Skills',
@@ -1032,8 +1024,8 @@
                 'fr' : 'Java, J2EE'
             },
             'htmlCss' : {
-                'en' : 'HTML5, CSS3, LESS, SASS',
-                'fr' : 'HTML5, CSS3, LESS, SASS'
+                'en' : 'HTML5, CSS3, LESS, SASS, PostCSS',
+                'fr' : 'HTML5, CSS3, LESS, SASS, PostCSS'
             },
             'xmlJsp' : {
                 'en' : 'XML, JSP',
@@ -1112,12 +1104,12 @@
                 'fr' : 'Splunk, Inc (San Francisco, CA - USA), Ingénieur informatique, depuis septembre 2015'
             },
             'splunkEngineerText' : {
-                'en' : 'Member of the User Interface Splunk Light team, which is responsible for the development of new features and maintenance of the User Interface of the Splunk Light.',
-                'fr' : 'Membre de l\'équipe responsable du développement des nouvelles fonctionnalités et de la maintenance de l\'interface utilisateur de Splunk Light'
+                'en' : 'I am working closely with other members of the Client Engineering team to implement new features for Splunk\'s UI, writing cutting edge frontend code: JavaScript/HTML/CSS, client-side MVC and working with brilliant designers to bring prototypes to life. We promote collaboration with our server engineering teams to expose Splunk’s rich functionality to a variety of different kinds of users.',
+                'fr' : 'Membre de l\'équipe \'Client Engineering\' responsable du développement des nouvelles fonctionnalités à la pointe de la technologie et de la maintenance de l\'interface utilisateur de Splunk: JavaScript/HTML/CSS, client-side MVC. Travail en équipe et collaboration avec de brillants ingénieurs et designers pour donner vie à des prototypes et exposer les très riches fonctionnalités de Splunk à une variété d\'utilisateurs.'
             },
             'splunkTechnologies' : {
-                'en' : 'JavaScript, Backbone.js, RequireJS, Underscore,js, Jasmine, LESS, Python, C++',
-                'fr' : 'JavaScript, Backbone.js, RequireJS, Underscore.js, Jasmine, LESS, Python, C++'
+                'en' : 'BackBone, Bootstrap, RequireJS, Underscore, Django, Python, Less, PostCSS, WebPack. Tools: Git, Stash, Crucible, Confluence, Jira, Jenkins, Bamboo',
+                'fr' : 'BackBone, Bootstrap, RequireJS, Underscore, Django, Python, Less, PostCSS, WebPack. Outils: Git, Stash, Crucible, Confluence, Jira, Jenkins, Bamboo'
             },
             'aribaEngineer' : {
                 'en' : 'Ariba, Inc (Sunnyvale, CA - USA), Software Engineer, January 2013 - April 2015',

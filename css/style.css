@@ -284,6 +284,9 @@ footer {
 .filters {
     line-height:30px;
 }
+.panel-heading {
+    text-align:center;
+}
 .panel-body-centered {
     text-align:center;
 }

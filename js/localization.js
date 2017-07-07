@@ -99,25 +99,129 @@
                 'en' : 'Nothing planned yet.',
                 'fr' : 'Aucun voyage de prévu.'
             },
-            'cancunDate' : {
+            'sep2017' : {
+                'en' : 'Sep 2017',
+                'fr' : 'Sep 2017'
+            },
+            'aug2017' : {
+                'en' : 'Aug 2017',
+                'fr' : 'Août 2017'
+            },
+            'jul2017' : {
+                'en' : 'Jul 2017',
+                'fr' : 'Juil 2017'
+            },
+            'jun2017' : {
+                'en' : 'Jun 2017',
+                'fr' : 'Juin 2017'
+            },
+            'jan2017' : {
+                'en' : 'Jan 2017',
+                'fr' : 'Jan 2017'
+            },
+            'dec2016' : {
+                'en' : 'Dec 2016',
+                'fr' : 'Dec 2016'
+            },
+            'nov2016' : {
+                'en' : 'Nov 2016',
+                'fr' : 'Nov 2016'
+            },
+            'sep2016' : {
+                'en' : 'Sep 2016',
+                'fr' : 'Sep 2016'
+            },
+            'may2016' : {
+                'en' : 'May 2016',
+                'fr' : 'Mai 2016'
+            },
+            'jan2016' : {
+                'en' : 'Jan 2016',
+                'fr' : 'Jan 2016'
+            },
+            'oct2015' : {
                 'en' : 'Oct 2015',
                 'fr' : 'Oct 2015'
+            },
+            'aug2015' : {
+                'en' : 'Aug 2015',
+                'fr' : 'Août 2015'
+            },
+            'jun2015' : {
+                'en' : 'Jun 2015',
+                'fr' : 'Juin 2015'
+            },
+            'mar2015' : {
+                'en' : 'Mar 2015',
+                'fr' : 'Mar 2015'
+            },
+            'dec2014' : {
+                'en' : 'Dec 2014',
+                'fr' : 'Déc 2014'
+            },
+            'sep2014' : {
+                'en' : 'Sep 2014',
+                'fr' : 'Sep 2014'
+            },
+            'jun2014' : {
+                'en' : 'Jun 2014',
+                'fr' : 'Juin 2014'
+            },
+            'may2014' : {
+                'en' : 'May 2014',
+                'fr' : 'Mai 2014'
+            },
+            'mar2014' : {
+                'en' : 'Mar 2014',
+                'fr' : 'Mar 2014'
+            },
+            'feb2014' : {
+                'en' : 'Feb 2014',
+                'fr' : 'Fév 2014'
+            },
+            'nov2013' : {
+                'en' : 'Nov 2013',
+                'fr' : 'Nov 2013'
+            },
+            'oct2013' : {
+                'en' : 'Oct 2013',
+                'fr' : 'Oct 2013'
+            },
+            'aug2013' : {
+                'en' : 'Aug 2013',
+                'fr' : 'Août 2013'
+            },
+            'jul2013' : {
+                'en' : 'Jul 2013',
+                'fr' : 'Juil 2013'
             },
             'cancun' : {
                 'en' : 'Cancun, MX',
                 'fr' : 'Cancun, Mexique'
             },
-            'corsicaDate' : {
-                'en' : 'Aug 2015',
-                'fr' : 'Août 2015'
+            'route66' : {
+                'en' : 'Route 66',
+                'fr' : 'Route 66'
+            },
+            'stp' : {
+                'en' : 'Seattle to Porland Race',
+                'fr' : 'Course de Seattle à Porland'
+            },
+            'halfdome' : {
+                'en' : 'Half Dome Hike',
+                'fr' : 'Half Dome Randonnée'
+            },
+            'honolulu' : {
+                'en' : 'Honolulu, HI',
+                'fr' : "Honolulu, HI"
+            },
+            'burningman' : {
+                'en' : 'Burning Man',
+                'fr' : "Burning Man"
             },
             'corsica' : {
                 'en' : 'Corsica',
                 'fr' : 'Corse'
-            },
-            'jan2016' : {
-                'en' : 'Jan 2016',
-                'fr' : 'Jan 2016'
             },
             'miami' : {
                 'en' : 'Miami, FL',
@@ -133,27 +237,15 @@
             },
             'bahamas' : {
                 'en' : 'The Bahamas',
-                'fr' : 'Bahamas'
-            },
-            'may2016' : {
-                'en' : 'May 2016',
-                'fr' : 'Mai 2016'
+                'fr' : 'Les Bahamas'
             },
             'havasu' : {
                 'en' : 'Havasu Waterfalls',
                 'fr' : "Cascade d'Havasu"
             },
-            'nov2016' : {
-                'en' : 'Nov 2016',
-                'fr' : 'Nov 2016'
-            },
             'colombia' : {
                 'en' : 'Colombia',
                 'fr' : "Colombie"
-            },
-            'dec2016' : {
-                'en' : 'Dec 2016',
-                'fr' : 'Dec 2016'
             },
             'singapore' : {
                 'en' : 'Singapore',
@@ -175,105 +267,53 @@
                 'en' : 'Done!',
                 'fr' : 'Vu!'
             },
-            'yellowstoneDate' : {
-                'en' : 'Jun 2015',
-                'fr' : 'Juin 2015'
-            },
             'yellowstone' : {
                 'en' : 'Yellowstone NP, WY',
                 'fr' : 'Yellowstone NP, WY'
-            },
-            'indiaDate' : {
-                'en' : 'Mar 2015',
-                'fr' : 'Mar 2015'
             },
             'india' : {
                 'en' : 'India',
                 'fr' : 'Inde'
             },
-            'montrealDate' : {
-                'en' : 'Dec 2014',
-                'fr' : 'Déc 2014'
-            },
             'montreal' : {
                 'en' : 'Montréal, Québec',
                 'fr' : 'Montréal, Québec'
-            },
-            'ncDate' : {
-                'en' : 'Sep 2014',
-                'fr' : 'Sep 2014'
             },
             'nc' : {
                 'en' : 'New Caledonia, France',
                 'fr' : 'Nouvelle Calédonie'
             },
-            'nationalParksDate' : {
-                'en' : 'Jun 2014',
-                'fr' : 'Juin 2014'
-            },
             'nationalParks' : {
                 'en' : 'National Parks, UT, AZ',
                 'fr' : 'Parcs Nationaux, UT, AZ'
-            },
-            'nolaDate' : {
-                'en' : 'May 2014',
-                'fr' : 'Mai 2014'
             },
             'nola' : {
                 'en' : 'New Orleans, LA',
                 'fr' : 'New Orleans, LA'
             },
-            'lasVegasDate' : {
-                'en' : 'Mar 2014',
-                'fr' : 'Mar 2014'
-            },
             'lasVegas' : {
                 'en' : 'Las Vegas, NV',
                 'fr' : 'Las Vegas, NV'
-            },
-            'sanDiegoDate' : {
-                'en' : 'Feb 2014',
-                'fr' : 'Fév 2014'
             },
             'sanDiego' : {
                 'en' : 'San Diego, CA',
                 'fr' : 'San Diego, CA'
             },
-            'mauiDate' : {
-                'en' : 'Nov 2013',
-                'fr' : 'Nov 2013'
-            },
             'maui' : {
                 'en' : 'Maui, HI',
                 'fr' : 'Maui, HI'
-            },
-            'seattleDate' : {
-                'en' : 'Oct 2013',
-                'fr' : 'Oct 2013'
             },
             'seattle' : {
                 'en' : 'Seattle, WA',
                 'fr' : 'Seattle, WA'
             },
-            'chicagoDate' : {
-                'en' : 'Aug 2013',
-                'fr' : 'Août 2013'
-            },
             'chicago' : {
                 'en' : 'Chicago, IL',
                 'fr' : 'Chicago, IL'
             },
-            'oregonDate' : {
-                'en' : 'Aug 2013',
-                'fr' : 'Août 2013'
-            },
             'oregon' : {
                 'en' : 'Oregon',
                 'fr' : 'Oregon'
-            },
-            'nycDate' : {
-                'en' : 'Jul 2013',
-                'fr' : 'Juil 2013'
             },
             'nyc' : {
                 'en' : 'New York City, NY',
@@ -658,12 +698,12 @@
                 'fr' : 'Les marqueurs sur la carte Google Maps sont les endroits que j\'ai visité. Cliquez sur l\'album que vous souhaitez visualiser dans la liste ci-contre.'
             },
             'states' : {
-                'en' : 'So far, I\'ve been to 15 US states: California, Oregon, Washington, Nevada, Arizona, Utah, Montana, Idaho, Wyoming, Illinois, Connecticut, Louisiana, Florida, New-York and Hawaii.',
-                'fr' : 'J\'ai visité 15 états: Californie, Oregon, Washington, Nevada, Arizona, Utah, Montana, Idaho, Wyoming, Illinois, Connecticut, Louisiane, Floride, New-York et Hawaii.'
+                'en' : 'So far, I\'ve been to 17 US states: Arizona, California, Colorado, Connecticut, Florida, Hawaii, Idaho, Illinois, Louisiana, Montana, New-Mexico, New-York, Nevada, Oregon, Utah, Washington, Wyoming',
+                'fr' : 'J\'ai visité 17 états: Arizona, Californie, Colorado, Connecticut, Floride, Hawaii, Idaho, Illinois, Louisiane, Montana, New-Mexico, New-York, Nevada, Oregon, Utah, Washington, Wyoming.'
             },
             'countries' : {
-                'en' : 'And I\'ve visited 11 countries: Canada, France, Hungary, India, Italy, the Czech Republic, New Caledonia, Spain, the United Kingdom, Mexico and the United States. Here is a cool website that helps you keep track:',
-                'fr' : 'Et j\'ai visité 11 pays: Canada, France, Hongrie, Inde, Italie, République Tchèque, Nouvelle Calédonie, Espagne, Royaume-Uni, Mexique et Etats-Unis. Voici un site web pratique qui vous aide à garder le compte:'
+                'en' : 'And I\'ve visited 15 countries: Bahamas, Canada, the Czech Republic, Colombia, France, Hungary, India, Indonesia, Italy, Mexico, New Caledonia, Singapore, Spain, the United Kingdom and the United States. Here is a cool website that helps you keep track:',
+                'fr' : 'Et j\'ai visité 15 pays: Bahamas, Canada, République Tchèque, Colombie, France, Hongrie, Inde, Indonésie, Italie, Mexique, Nouvelle Calédonie, Singapour, Espagne, Royaume-Uni et Etats-Unis. Voici un site web pratique qui vous aide à garder le compte:'
             },
             'upToDateWebBrowser' : {
                 'en' : 'Attention! In order to see the album, your web browser must be up-to-date.',

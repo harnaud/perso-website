@@ -284,4 +284,7 @@ footer {
 .filters {
     line-height:30px;
 }
+.panel-body-centered {
+    text-align:center;
+}
 /* end blog frag */

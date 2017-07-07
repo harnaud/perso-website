@@ -73,6 +73,8 @@
         addMarker(map, 39.069467, -120.046279, negativeImg, 'Lake Tahoe', 'Lake Tahoe');
         addMarker(map, 37.743744, -119.595436, negativeImg, 'Yosemite', 'Yosemite National Park');
         addMarker(map, 36.490420, -121.183650, negativeImg, 'Pinnacles', 'Pinnacles National Park');
+        addMarker(map, 35.066942, -109.785171, negativeImg, 'Petrified Forest', 'Petrified Forest National Park');
+        addMarker(map, 33.876863, -115.899170, negativeImg, 'Joshua Tree', 'Joshua Tree National Park');
         addMarker(map, 40.738960, -73.994787, negativeImg, 'New York City', 'New York City');
         addMarker(map, 41.033507, -73.625553, negativeImg, 'Connecticut', 'Connecticut');
         addMarker(map, 41.873626, -87.630532, negativeImg, 'Chicago', 'Chicago');
@@ -85,6 +87,7 @@
         addMarker(map, 37.592859, -112.187283, negativeImg, 'Bryce Canyon', 'Bryce Canyon');
         addMarker(map, 37.002326, -110.111224, negativeImg, 'Monument Valley', 'Monument Valley');
         addMarker(map, 36.057075, -112.104382, negativeImg, 'Grand Canyon', 'Grand Canyon');
+        addMarker(map, 36.255191, -112.697927, negativeImg, 'Havasu', 'Havasu');
         addMarker(map, 33.447114, -112.068782, negativeImg, 'Phoenix', 'Phoenix');
         addMarker(map, 35.037814, -115.614863, negativeImg, 'Mojave', 'Mojave');
         addMarker(map, 44.418994, -110.571107, negativeImg, 'Yellowstone', 'Yellowstone');
@@ -122,13 +125,22 @@
         addMarker(map, 43.891395, -0.499039, negativeImg, 'Mont-de-Marsan', 'Mont-de-Marsan');
         addMarker(map, 21.161079, -86.846443, negativeImg, 'Cancun', 'Cancun');
         addMarker(map, 25.761902, -80.193660, negativeImg, 'Miami', 'Miami');
+        addMarker(map, 28.539021, -81.376313, negativeImg, 'Orlando', 'Orlando');
         addMarker(map, 43.660560, -79.382873, negativeImg, 'Toronto', 'Toronto');
         addMarker(map, 43.084017, -79.072720, negativeImg, 'Niagara Falls', 'Niagara Falls');
+        addMarker(map, 6.254340, -75.569272, negativeImg, 'Medellin', 'Medellin');
+        addMarker(map, 3.449896, -76.530816, negativeImg, 'Cali', 'Cali');
+        addMarker(map, 10.403049, -75.506023, negativeImg, 'Cartagena', 'Cartagena');
+        addMarker(map, 1.332575, 103.853875, negativeImg, 'Singapore', 'Singapore');
+        addMarker(map, -8.344296, 115.104327, negativeImg, 'Bali', 'Bali');
+        addMarker(map, 25.825014, -77.913694, negativeImg, 'Great Stirrup Cay', 'Great Stirrup Cay');
+        addMarker(map, 35.084015, -106.608511, negativeImg, 'Albuquerque', 'Albuquerque');
+        addMarker(map, 35.686098, -105.938063, negativeImg, 'Santa Fe', 'Santa Fe');
+        addMarker(map, 34.863811, -111.784668, negativeImg, 'Sedona', 'Sedona');
+        addMarker(map, 39.738387, -104.990389, negativeImg, 'Denver', 'Denver');
+        addMarker(map, 39.639256, -106.372965, negativeImg, 'Vail', 'Vail');
         // TO BE DONE NEXT
-        addMarker(map, 6.254340, -75.569272, orangeImg, 'Medellin', 'Medellin');
-        addMarker(map, 1.332575, 103.853875, orangeImg, 'Singapore', 'Singapore');
-        addMarker(map, -8.344296, 115.104327, orangeImg, 'Bali', 'Bali');
-
+        //addMarker(map, -8.344296, 115.104327, orangeImg, '', '');
     };
 
     window.initPhotoMap = initPhotoMap;

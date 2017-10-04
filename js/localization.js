@@ -204,8 +204,8 @@
                 'fr' : 'Route 66'
             },
             'stp' : {
-                'en' : 'Seattle to Porland Race',
-                'fr' : 'Course de Seattle à Porland'
+                'en' : 'Seattle to Portland Race',
+                'fr' : 'Course cycliste de Seattle à Portland'
             },
             'halfdome' : {
                 'en' : 'Half Dome Hike',
@@ -698,12 +698,12 @@
                 'fr' : 'Les marqueurs sur la carte Google Maps sont les endroits que j\'ai visité. Cliquez sur l\'album que vous souhaitez visualiser dans la liste ci-contre.'
             },
             'states' : {
-                'en' : 'So far, I\'ve been to 17 US states: Arizona, California, Colorado, Connecticut, Florida, Hawaii, Idaho, Illinois, Louisiana, Montana, New-Mexico, New-York, Nevada, Oregon, Utah, Washington, Wyoming',
-                'fr' : 'J\'ai visité 17 états: Arizona, Californie, Colorado, Connecticut, Floride, Hawaii, Idaho, Illinois, Louisiane, Montana, New-Mexico, New-York, Nevada, Oregon, Utah, Washington, Wyoming.'
+                'en' : 'So far, I\'ve been to 17 US states: Arizona, California, Colorado, Connecticut, Florida, Hawaii, Idaho, Illinois, Louisiana, Montana, New-Mexico, New-York, Nevada, Oregon, Utah, Washington, Wyoming. Here is a cool website that helps you keep track:',
+                'fr' : 'J\'ai visité 17 états: Arizona, Californie, Colorado, Connecticut, Floride, Hawaii, Idaho, Illinois, Louisiane, Montana, New-Mexico, New-York, Nevada, Oregon, Utah, Washington, Wyoming. Voici un site web pratique qui vous aide à garder le compte:'
             },
             'countries' : {
-                'en' : 'And I\'ve visited 15 countries: Bahamas, Canada, the Czech Republic, Colombia, France, Hungary, India, Indonesia, Italy, Mexico, New Caledonia, Singapore, Spain, the United Kingdom and the United States. Here is a cool website that helps you keep track:',
-                'fr' : 'Et j\'ai visité 15 pays: Bahamas, Canada, République Tchèque, Colombie, France, Hongrie, Inde, Indonésie, Italie, Mexique, Nouvelle Calédonie, Singapour, Espagne, Royaume-Uni et Etats-Unis. Voici un site web pratique qui vous aide à garder le compte:'
+                'en' : 'And I\'ve visited 15 countries: Bahamas, Canada, the Czech Republic, Colombia, France, Hungary, India, Indonesia, Italy, Mexico, New Caledonia, Singapore, Spain, the United Kingdom and the United States. Here is another cool website that helps you keep track:',
+                'fr' : 'Et j\'ai visité 15 pays: Bahamas, Canada, République Tchèque, Colombie, France, Hongrie, Inde, Indonésie, Italie, Mexique, Nouvelle Calédonie, Singapour, Espagne, Royaume-Uni et Etats-Unis. Voici un autre site web pratique qui vous aide à garder le compte:'
             },
             'upToDateWebBrowser' : {
                 'en' : 'Attention! In order to see the album, your web browser must be up-to-date.',
@@ -1024,16 +1024,12 @@
                 'fr' : 'Arnaud HEBERT'
             },
             'birthDate' : {
-                'en' : currentAge()+' years old',
-                'fr' : currentAge()+' ans'
+                'en' : currentAge() + ' years old',
+                'fr' : currentAge() + ' ans'
             },
             'email' : {
                 'en' : 'E-mail: pro (at) arnaudhebert.com',
                 'fr' : 'E-mail : pro (at) arnaudhebert.com'
-            },
-            'phoneNumber' : {
-                'en' : '+1 (669) 220 8131',
-                'fr' : '+1 (669) 220 8131'
             },
             'objectiveSection' : {
                 'en' : 'Objective',

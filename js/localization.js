@@ -1068,8 +1068,8 @@
                 'fr' : 'XML, JSP'
             },
             'JavaScript' : {
-                'en' : 'JavaScript: jQuery, AngularJS, Backbone.js, RequireJS, Underscore.js, Jasmine',
-                'fr' : 'JavaScript: jQuery, AngularJS, Backbone.js, RequireJS, Underscore.js, Jasmine'
+                'en' : 'JavaScript: jQuery, AngularJS, BackBone.js, React, RequireJS, Underscore, Jasmine',
+                'fr' : 'JavaScript: jQuery, AngularJS, BackBone.js, React, RequireJS, Underscore, Jasmine'
             },
             'gmapsgcharts' : {
                 'en' : 'Google Maps, Google Charts',
@@ -1096,8 +1096,8 @@
                 'fr' : 'Adobe PhotoShop CS6'
             },
             'jira' : {
-                'en' : 'JIRA, Crucible, Stash, Confluence',
-                'fr' : 'JIRA, Crucible, Stash, Confluence'
+                'en' : 'Git, Stash, Crucible, Confluence, Jira, Jenkins, Bamboo',
+                'fr' : 'Git, Stash, Crucible, Confluence, Jira, Jenkins, Bamboo'
             },
             'cvs' : {
                 'en' : 'Perforce, Git',

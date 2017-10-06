@@ -1037,7 +1037,7 @@
             },
             'objectiveText' : {
                 'en' : 'Self taught UI Developer/Front-end Software Engineer, blogger, traveller. I have a Master\'s degree in Computer Science and my specialty is front-end development. I thrive in an environment where I can diversify my knowledge, learn more every day and improve my skills in Web Development by learning cutting edge technologies and work on innovative products.',
-                'fr' : 'Titulaire d\'un diplôme généraliste d\'ingénieur informatique réseaux et multimédia, autodidacte développeur web, ingénieur UI/front-end, blogeur, voyageur. Je veux continuellement diversifier mes compétences et gagner de l\'expérience en développement web en apprenant des technologies à la pointe et en travaillant sur des produits innovants.'
+                'fr' : 'Titulaire d\'un diplôme généraliste d\'ingénieur informatique réseaux et multimédia, autodidacte développeur web, ingénieur UI/front-end, blogueur, voyageur. Je veux continuellement diversifier mes compétences et gagner de l\'expérience en développement web en apprenant des technologies à la pointe et en travaillant sur des produits innovants.'
             },
             'skillsSection' : {
                 'en' : 'Skills',

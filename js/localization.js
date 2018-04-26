@@ -47,9 +47,9 @@
                 'en' : 'Portfolio',
                 'fr' : 'Portfolio'
             },
-            'photosTab' : {
-                'en' : 'Pics',
-                'fr' : 'Photos'
+            'travelTab' : {
+                'en' : 'Travel',
+                'fr' : 'Voyages'
             },
             'downloadsTab' : {
                 'en' : 'Downloads',
@@ -98,6 +98,22 @@
             'nothingPlanned' : {
                 'en' : 'Nothing planned yet.',
                 'fr' : 'Aucun voyage de prévu.'
+            },
+            'dec2018' : {
+                'en' : 'Dec 2018',
+                'fr' : 'Déc 2018'
+            },
+            'nov2018' : {
+                'en' : 'Nov 2018',
+                'fr' : 'Nov 2018'
+            },
+            'aug2018' : {
+                'en' : 'Aug 2018',
+                'fr' : 'Août 2018'
+            },
+            'july2018' : {
+                'en' : 'Jul 2018',
+                'fr' : 'Juil 2018'
             },
             'sep2017' : {
                 'en' : 'Sep 2017',
@@ -194,6 +210,22 @@
             'jul2013' : {
                 'en' : 'Jul 2013',
                 'fr' : 'Juil 2013'
+            },
+            'july2018trip' : {
+                'en' : 'Nashville, TN and Louisville, KY',
+                'fr' : 'Nashville, TN et Louisville, KY'
+            },
+            'vermont' : {
+                'en' : 'Boston, MA and Stratton, VT',
+                'fr' : 'Boston, MA et Stratton, VT'
+            },
+            'greece' : {
+                'en' : 'Greece (possibly)',
+                'fr' : 'Grèce (possiblement)'
+            },
+            'iceland' : {
+                'en' : 'Iceland (possibly)',
+                'fr' : 'Islande (possiblement)'
             },
             'cancun' : {
                 'en' : 'Cancun, MX',
@@ -698,12 +730,72 @@
                 'fr' : 'Les marqueurs sur la carte Google Maps sont les endroits que j\'ai visité. Cliquez sur l\'album que vous souhaitez visualiser dans la liste ci-contre.'
             },
             'states' : {
-                'en' : 'So far, I\'ve been to 17 US states: Arizona, California, Colorado, Connecticut, Florida, Hawaii, Idaho, Illinois, Louisiana, Montana, New-Mexico, New-York, Nevada, Oregon, Utah, Washington, Wyoming. Here is a cool website that helps you keep track:',
-                'fr' : 'J\'ai visité 17 états: Arizona, Californie, Colorado, Connecticut, Floride, Hawaii, Idaho, Illinois, Louisiane, Montana, New-Mexico, New-York, Nevada, Oregon, Utah, Washington, Wyoming. Voici un site web pratique qui vous aide à garder le compte:'
+                'en' : 'So far, I\'ve been to 18 US states: Arizona, California, Colorado, Connecticut, Florida, Hawaii, Idaho, Illinois, Louisiana, Montana, New-Mexico, New-York, Nevada, Oregon, Texas, Utah, Washington, Wyoming. Here is a cool website that helps you keep track:',
+                'fr' : 'J\'ai visité 18 états: Arizona, Californie, Colorado, Connecticut, Floride, Hawaii, Idaho, Illinois, Louisiane, Montana, New-Mexico, New-York, Nevada, Oregon, Texas, Utah, Washington, Wyoming. Voici un site web pratique qui vous aide à garder le compte:'
             },
-            'countries' : {
-                'en' : 'And I\'ve visited 15 countries: Bahamas, Canada, the Czech Republic, Colombia, France, Hungary, India, Indonesia, Italy, Mexico, New Caledonia, Singapore, Spain, the United Kingdom and the United States. Here is another cool website that helps you keep track:',
-                'fr' : 'Et j\'ai visité 15 pays: Bahamas, Canada, République Tchèque, Colombie, France, Hongrie, Inde, Indonésie, Italie, Mexique, Nouvelle Calédonie, Singapour, Espagne, Royaume-Uni et Etats-Unis. Voici un autre site web pratique qui vous aide à garder le compte:'
+            'countriesbahamas' : {
+                'en' : 'And I\'ve visited 15 countries: Bahamas ',
+                'fr' : 'Et j\'ai visité 15 pays: Bahamas '
+            },
+            'canada' : {
+                'en' : ', Canada ',
+                'fr' : ', Canada '
+            },
+            'cz' : {
+                'en' : ', the Czech Republic ',
+                'fr' : ', République Tchèque '
+            },
+            'colombia' : {
+                'en' : ', Colombia ',
+                'fr' : ', Colombie '
+            },
+            'france' : {
+                'en' : ', France ',
+                'fr' : ', France '
+            },
+            'hungary' : {
+                'en' : ', Hungary ',
+                'fr' : ', Hongrie '
+            },
+            'india' : {
+                'en' : ', India ',
+                'fr' : ', Inde '
+            },
+            'indonesia' : {
+                'en' : ', Indonesia ',
+                'fr' : ', Indonésie '
+            },
+            'italy' : {
+                'en' : ', Italy ',
+                'fr' : ', Italie '
+            },
+            'mexico' : {
+                'en' : ', Mexico ',
+                'fr' : ', Mexique '
+            },
+            'newcaledonia' : {
+                'en' : ', New Caledonia ',
+                'fr' : ', Nouvelle Calédonie '
+            },
+            'singapore' : {
+                'en' : ', Singapore ',
+                'fr' : ', Singapour '
+            },
+            'spain' : {
+                'en' : ', Spain ',
+                'fr' : ', Espagne '
+            },
+            'uk' : {
+                'en' : ', the United Kingdom ',
+                'fr' : ', Royaume-Uni '
+            },
+            'usa' : {
+                'en' : ' and the United States ',
+                'fr' : ' et les Etats-Unis '
+            },
+            'countrieslink' : {
+                'en' : '. Here is another cool website that helps you keep track:',
+                'fr' : '. Voici un autre site web pratique qui vous aide à garder le compte:'
             },
             'upToDateWebBrowser' : {
                 'en' : 'Attention! In order to see the album, your web browser must be up-to-date.',

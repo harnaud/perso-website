@@ -139,6 +139,7 @@
         addMarker(map, 34.863811, -111.784668, negativeImg, 'Sedona', 'Sedona');
         addMarker(map, 39.738387, -104.990389, negativeImg, 'Denver', 'Denver');
         addMarker(map, 39.639256, -106.372965, negativeImg, 'Vail', 'Vail');
+        addMarker(map, 30.264995, -97.743111, negativeImg, 'Austin', 'Austin');
         // TO BE DONE NEXT
         //addMarker(map, -8.344296, 115.104327, orangeImg, '', '');
     };

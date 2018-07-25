@@ -730,8 +730,8 @@
                 'fr' : 'Les marqueurs sur la carte Google Maps sont les endroits que j\'ai visité. Cliquez sur l\'album que vous souhaitez visualiser dans la liste ci-contre.'
             },
             'states' : {
-                'en' : 'So far, I\'ve been to 18 US states: Arizona, California, Colorado, Connecticut, Florida, Hawaii, Idaho, Illinois, Louisiana, Montana, New-Mexico, New-York, Nevada, Oregon, Texas, Utah, Washington, Wyoming. Here is a cool website that helps you keep track:',
-                'fr' : 'J\'ai visité 18 états: Arizona, Californie, Colorado, Connecticut, Floride, Hawaii, Idaho, Illinois, Louisiane, Montana, New-Mexico, New-York, Nevada, Oregon, Texas, Utah, Washington, Wyoming. Voici un site web pratique qui vous aide à garder le compte:'
+                'en' : 'So far, I\'ve been to 20 US states: Arizona, California, Colorado, Connecticut, Florida, Hawaii, Idaho, Illinois, Kentucky, Louisiana, Montana, New-Mexico, New-York, Nevada, Oregon, Texas, Tennessee, Utah, Washington, Wyoming. Here is a cool website that helps you keep track:',
+                'fr' : 'J\'ai visité 20 états: Arizona, Californie, Colorado, Connecticut, Floride, Hawaii, Idaho, Illinois, Kentucky, Louisiane, Montana, New-Mexico, New-York, Nevada, Oregon, Tennessee, Texas, Utah, Washington, Wyoming. Voici un site web pratique qui vous aide à garder le compte:'
             },
             'countriesbahamas' : {
                 'en' : 'And I\'ve visited 15 countries: Bahamas ',

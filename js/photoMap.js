@@ -142,6 +142,8 @@
         addMarker(map, 30.264995, -97.743111, negativeImg, 'Austin', 'Austin');
         addMarker(map, 36.166868, -86.781584, negativeImg, 'Nashville', 'Nashville');
         addMarker(map, 37.899330, -85.968873, negativeImg, 'Fort Knox', 'Fort Knox');
+        addMarker(map, 43.113766, -72.907240, negativeImg, 'Stratton', 'Stratton');
+        addMarker(map, 42.359960, -71.058684, negativeImg, 'Boston', 'Boston');
         // TO BE DONE NEXT
         //addMarker(map, -8.344296, 115.104327, orangeImg, '', '');
     };

@@ -144,6 +144,7 @@
         addMarker(map, 37.899330, -85.968873, negativeImg, 'Fort Knox', 'Fort Knox');
         addMarker(map, 43.113766, -72.907240, negativeImg, 'Stratton', 'Stratton');
         addMarker(map, 42.359960, -71.058684, negativeImg, 'Boston', 'Boston');
+        addMarker(map, 37.914750, -81.125008, negativeImg, 'West Virginia', 'West Virginia');
         // TO BE DONE NEXT
         //addMarker(map, -8.344296, 115.104327, orangeImg, '', '');
     };

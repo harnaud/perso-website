@@ -103,6 +103,10 @@
                 'en' : 'Nov 2019',
                 'fr' : 'Nov 2019'
             },
+            'july2019' : {
+                'en' : 'July 2019',
+                'fr' : 'Juil 2019'
+            },
             'dec2018' : {
                 'en' : 'Dec 2018',
                 'fr' : 'Déc 2018'
@@ -230,6 +234,10 @@
             'greece' : {
                 'en' : 'Greece (possibly)',
                 'fr' : 'Grèce (possiblement)'
+            },
+            'alaska' : {
+                'en' : 'Alaska',
+                'fr' : 'Alaska'
             },
             'iceland' : {
                 'en' : 'Iceland',
@@ -738,8 +746,8 @@
                 'fr' : 'Les marqueurs sur la carte Google Maps sont les endroits que j\'ai visité. Cliquez sur l\'album que vous souhaitez visualiser dans la liste ci-contre.'
             },
             'states' : {
-                'en' : 'So far, I\'ve been to 24 US states: Alabama, Arizona, California, Colorado, Connecticut, Florida, Hawaii, Idaho, Illinois, Kentucky, Louisiana, Massachusetts, Montana, New-Mexico, New-York, Nevada, Oregon, Texas, Tennessee, Utah, Vermont, Washington, West Virginia, Wyoming. Here is a cool website that helps you keep track:',
-                'fr' : 'J\'ai visité 24 états: Alabama, Arizona, Californie, Colorado, Connecticut, Floride, Hawaii, Idaho, Illinois, Kentucky, Louisiane, Massachusetts, Montana, New-Mexico, New-York, Nevada, Oregon, Tennessee, Texas, Utah, Vermont, Washington, West Virginia, Wyoming. Voici un site web pratique qui vous aide à garder le compte:'
+                'en' : 'So far, I\'ve been to 25 US states: Alabama, Alaska, Arizona, California, Colorado, Connecticut, Florida, Hawaii, Idaho, Illinois, Kentucky, Louisiana, Massachusetts, Montana, New-Mexico, New-York, Nevada, Oregon, Texas, Tennessee, Utah, Vermont, Washington, West Virginia, Wyoming. Here is a cool website that helps you keep track:',
+                'fr' : 'J\'ai visité 25 états: Alabama, Alaska, Arizona, Californie, Colorado, Connecticut, Floride, Hawaii, Idaho, Illinois, Kentucky, Louisiane, Massachusetts, Montana, New-Mexico, New-York, Nevada, Oregon, Tennessee, Texas, Utah, Vermont, Washington, West Virginia, Wyoming. Voici un site web pratique qui vous aide à garder le compte:'
             },
             'countriesbahamas' : {
                 'en' : 'And I\'ve visited 15 countries: Bahamas ',

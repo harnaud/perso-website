@@ -147,6 +147,10 @@
         addMarker(map, 37.914750, -81.125008, negativeImg, 'West Virginia', 'West Virginia');
         addMarker(map, 30.327740, -81.657057, negativeImg, 'Jacksonville', 'Jacksonville');
         addMarker(map, 30.819374, -88.071006, negativeImg, 'Saraland', 'Saraland');
+        addMarker(map, 61.214384, -149.900371, negativeImg, 'Anchorage', 'Anchorage');
+        addMarker(map, 63.115015, -151.192509, negativeImg, 'Denali', 'Denali');
+        addMarker(map, 60.773076, -148.683541, negativeImg, 'Whittier', 'Whittier');
+        addMarker(map, 61.656138, -147.580982, negativeImg, 'Matanuska Glacier', 'Matanuska Glacier');
         // TO BE DONE NEXT
         //addMarker(map, -8.344296, 115.104327, orangeImg, '', '');
     };

@@ -88,7 +88,7 @@
                 'fr' : 'Où suis-je?'
             },
             'presentationText' : {
-                'en' : 'Welcome! My name is Arnaud, I am '+currentAge()+' and I am a UI Developer/Front-end Software Engineer, blogger, traveller. I have a Master\'s degree in Computer Science. My speciality is front-end development. I thrive in an environment where I can diversify my knowledge, learn more every day and improve my skills in Web Development by learning cutting edge technologies and work on innovative products as part of a disruptive company.',
+                'en' : 'Welcome! My name is Arnaud, I am '+currentAge()+' and I am a UI Developer/Front-end Software Engineer, blogger, traveller. I have a Master\'s degree in Computer Science. My speciality is front-end development. I thrive in an environment where I can diversify my knowledge, learn more every day and improve my skills in Web Development by learning cutting edge technologies and working on innovative products as part of a disruptive company.',
                 'fr' : 'Bienvenue sur ce site. Je m\'appelle Arnaud, j\'ai '+currentAge()+' ans et je suis UI développeur/ingénieur informaticien, je suis un blogueur et voyageur. Je suis diplômé de Polytech\'Marseille - ESIL. Ma specialité est le développement web. Je prospère dans un environnement où je peux diversifier et améliorer mes connaissances et mon savoir-faire en développement web en utilisant les technologies à la pointe et en travaillant sur des produits innovants.'
             },
             'toVisitNext' : {
@@ -98,6 +98,10 @@
             'nothingPlanned' : {
                 'en' : 'Nothing planned yet.',
                 'fr' : 'Aucun voyage de prévu.'
+            },
+            'nov2020' : {
+                'en' : 'Nov 2020',
+                'fr' : 'Nov 2020'
             },
             'nov2019' : {
                 'en' : 'Nov 2019',
@@ -232,8 +236,8 @@
                 'fr' : 'Suède (possiblement)'
             },
             'greece' : {
-                'en' : 'Greece (possibly)',
-                'fr' : 'Grèce (possiblement)'
+                'en' : 'Greece',
+                'fr' : 'Grèce'
             },
             'alaska' : {
                 'en' : 'Alaska',
@@ -750,8 +754,8 @@
                 'fr' : 'J\'ai visité 25 états: Alabama, Alaska, Arizona, Californie, Colorado, Connecticut, Floride, Hawaii, Idaho, Illinois, Kentucky, Louisiane, Massachusetts, Montana, New-Mexico, New-York, Nevada, Oregon, Tennessee, Texas, Utah, Vermont, Washington, West Virginia, Wyoming. Voici un site web pratique qui vous aide à garder le compte:'
             },
             'countriesbahamas' : {
-                'en' : 'And I\'ve visited 15 countries: Bahamas ',
-                'fr' : 'Et j\'ai visité 15 pays: Bahamas '
+                'en' : 'And I\'ve visited 17 countries: Bahamas ',
+                'fr' : 'Et j\'ai visité 17 pays: Bahamas '
             },
             'canada' : {
                 'en' : ', Canada ',
@@ -769,9 +773,17 @@
                 'en' : ', France ',
                 'fr' : ', France '
             },
+            'greece' : {
+                'en' : ', Greece ',
+                'fr' : ', Grèce '
+            },
             'hungary' : {
                 'en' : ', Hungary ',
                 'fr' : ', Hongrie '
+            },
+            'iceland' : {
+                'en' : ', Iceland ',
+                'fr' : ', Island '
             },
             'india' : {
                 'en' : ', India ',
@@ -1144,7 +1156,7 @@
                 'fr' : 'Objectif'
             },
             'objectiveText' : {
-                'en' : 'Self taught UI Developer/Front-end Software Engineer, blogger, traveller. I have a Master\'s degree in Computer Science and my specialty is front-end development. I thrive in an environment where I can diversify my knowledge, learn more every day and improve my skills in Web Development by learning cutting edge technologies and work on innovative products.',
+                'en' : 'Self taught UI Developer/Front-end Software Engineer, blogger, traveller. I have a Master\'s degree in Computer Science and my specialty is front-end development. I thrive in an environment where I can diversify my knowledge, learn more every day and improve my skills in Web Development by learning cutting edge technologies and working on innovative products.',
                 'fr' : 'Titulaire d\'un diplôme généraliste d\'ingénieur informatique réseaux et multimédia, autodidacte développeur web, ingénieur UI/front-end, blogueur, voyageur. Je veux continuellement diversifier mes compétences et gagner de l\'expérience en développement web en apprenant des technologies à la pointe et en travaillant sur des produits innovants.'
             },
             'skillsSection' : {

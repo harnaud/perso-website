@@ -151,6 +151,10 @@
         addMarker(map, 63.115015, -151.192509, negativeImg, 'Denali', 'Denali');
         addMarker(map, 60.773076, -148.683541, negativeImg, 'Whittier', 'Whittier');
         addMarker(map, 61.656138, -147.580982, negativeImg, 'Matanuska Glacier', 'Matanuska Glacier');
+        addMarker(map, 64.146769, -21.942344, negativeImg, 'Reykjavík', 'Reykjavík');
+        addMarker(map, 37.073910, 22.430324, negativeImg, 'Sparta', 'Sparta');
+        addMarker(map, 37.984014, 23.727780, negativeImg, 'Athens', 'Athens');
+        addMarker(map, 36.393869, 25.462170, negativeImg, 'Santorini', 'Santorini');
         // TO BE DONE NEXT
         //addMarker(map, -8.344296, 115.104327, orangeImg, '', '');
     };

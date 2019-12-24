@@ -88,7 +88,7 @@
                 'fr' : 'Où suis-je?'
             },
             'presentationText' : {
-                'en' : 'Welcome! My name is Arnaud, I am '+currentAge()+' and I am a UI Developer/Front-end Software Engineer, blogger, traveller. I have a Master\'s degree in Computer Science. My speciality is front-end development. I thrive in an environment where I can diversify my knowledge, learn more every day and improve my skills in Web Development by learning cutting edge technologies and working on innovative products as part of a disruptive company.',
+                'en' : 'Welcome! My name\'s Arnaud. I am a '+currentAge()+'-year-old UI developer, front-end software engineer, blogger, and traveller. I have a Master\'s degree in Computer Science. My speciality is front-end development. I thrive in an environment where I can diversify my knowledge, learn more every day, and improve my skills in web development by learning cutting edge technologies and working on innovative products as part of a disruptive company.',
                 'fr' : 'Bienvenue sur ce site. Je m\'appelle Arnaud, j\'ai '+currentAge()+' ans et je suis UI développeur/ingénieur informaticien, je suis un blogueur et voyageur. Je suis diplômé de Polytech\'Marseille - ESIL. Ma specialité est le développement web. Je prospère dans un environnement où je peux diversifier et améliorer mes connaissances et mon savoir-faire en développement web en utilisant les technologies à la pointe et en travaillant sur des produits innovants.'
             },
             'toVisitNext' : {
